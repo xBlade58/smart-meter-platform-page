@@ -58,6 +58,12 @@ We have carefully selected a robust technology stack for this project. Our chose
 
 ![open api, async api, quarkus, kafka, docker, postgre, prometheus, dart, flutter](images/technologies.png "The technologies planned to be used in the Project")
 
+## Planned Features
+
+- robust & well-documented interfaces
+- re-usable & extensible
+- 3 interfaces allowing to create extensions for the system
+- continuous tracking of power costs as a Demo mobile app
 
 ## Milestones
 
