@@ -56,7 +56,7 @@ For more advanced solutions, the platform provides **Utilization of Custom Cloud
 
 We have carefully selected a robust technology stack for this project. Our chosen technologies are as follows:
 
-![open api, async api, quarkus, kafka, docker, postgre, prometheus, dart, flutter](images/technologies.png "The technologies planned to be used in the Project")
+![open api, async api, quarkus, kafka, docker, postgre, timescale-db, dart, flutter](images/technologies.png "The technologies planned to be used in the Project")
 
 ## Planned Features
 
