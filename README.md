@@ -67,7 +67,7 @@ We have carefully selected a robust technology stack for this project. Our chose
 
 ## Milestones
 
-We are planning to reach the following milestones in our project in the specified ammount of time.
+We are planning to reach the following milestones in our project in the specified amount of time.
 
 | Milestone | Description | Due Date |
 | -- | -- | -- |
