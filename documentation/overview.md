@@ -1,6 +1,6 @@
 ## Open Meter Platform
 
-![a picture of the platform diagram](images/OpenMeterPlatform.png "Title")
+![a picture of the platform diagram](images/OpenMeterPlatform.png "abstract platform overview")
 
 ### Smart Meter
 

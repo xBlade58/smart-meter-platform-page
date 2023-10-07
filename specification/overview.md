@@ -2,6 +2,10 @@
 
 The **Open Meter Data Platform** is a solution designed to standardize a platform to collect smart meter data. This data can be used to optimize energy consumption and enhance efficiency in residential and commercial settings. Leveraging advanced technologies, this system offers real-time monitoring, data analysis, and visualization capabilities. Here's an overview of the key components and their interconnections:
 
+## Brainstorming
+
+![a picture of the brainstorming platform diagram](images/brainstorming_platform_components.jpeg "brainstorming_platform_components")
+
 ## Components
 
 ### [SmartMeter](SmartMeter.md)
