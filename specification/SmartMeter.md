@@ -7,29 +7,32 @@ The SmartMeter serves as the central controller component for communication tech
 ## What is the Component About
 
 The SmartMeter, installed by the energy provider, is designed to:
+
 - Measure and monitor energy consumption and injection in households and apartments.
-- Provide accurate data for billing purposes, ensuring precise calculation of energy usage.
+- Ensure precise calculation of energy usage needed for billing.
 - Support communication with external devices through standardized interfaces, such as the M-Bus.
 
 ## Input Parameters
 
 Smart Meters measure a variety of parameters related to energy consumption, including:
+
 - **Current Power Consumption:** Instantaneous power consumption in watts.
 - **Current Power Injection:** Instantaneous power injection in watts.
 - **Current Total Consumption:** Total active energy consumption in watt-hours.
 - **Current Total Injection:** Total active energy injection in watt-hours.
 
-(*Note: Smart Meters may measure additional parameters based on specific configurations and requirements.*)
+> [!NOTE]
+> Smart Meters may measure additional parameters based on specific configurations and requirements.
 
 ## Output Parameters
 
-The M-Bus interface is a standardized communication protocol used by Smart Meters to transmit data. Examples of output parameters include:
+The [M-Bus](https://m-bus.com/) interface is a standardized communication protocol used by Smart Meters to transmit data about energy consumptions of households. Examples of output parameters include:
+
 - **Current Power Consumption:** Instantaneous power consumption in watts.
 - **Current Power Injection:** Instantaneous power injection in watts.
 - **Current Total Consumption:** Total active energy consumption in watt-hours.
 - **Current Total Injection:** Total active energy injection in watt-hours.
 
-(*Note: Output parameters are communicated via the M-Bus interface, a standardized protocol defined by m-bus.com.*)
 
 Other forms of output
 - P1
@@ -50,3 +53,4 @@ The SmartMeter communicates data through standardized interfaces. The specific i
 
 - **Secure Connection:** The connection between the Smart Meter and peripheral devices, such as IoT Devices, should be secured in accordance with relevant laws and regulations.
 - **M-Bus Interface Key:** The Smart Meter defines a unique key for the M-Bus interface, which is provided to authorized peripheral devices. This key must be stored securely to prevent unauthorized access or tampering.
+- 

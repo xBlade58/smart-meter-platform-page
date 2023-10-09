@@ -21,7 +21,9 @@ The IoT Edge component serves the following purposes:
 ## Output Parameters
 
 - **To Cloud:**
-    - **Meta Data per Smart Meter:** Includes metadata such as household type and the number of occupants.
+    - **Meta Data per Smart Meter:**
+      - household type and the number of occupants
+      - Smart Meter ID
     - **Current Data from Smart Meters:**
         - Current Power Consumption
         - Current Power Injection
