@@ -6,16 +6,18 @@ The vision is to create a open platform to make data from smart meters private a
 
 Until **25th of Janurary 2024**, we will develop a specification for a Open Meter Data Platform, which shows ways to collect and visualises data originating from smart meters, whereby **every required interface** between data source and data sink in the cloud is **properly specified** in order for the **components** (IoT device, …) **to be interchangeable**, an example implementation following the standard should also be available for at least 2 components.
 
-## Specification
-
-In the specification, the platform is described in an abstract way.
-
-[To the specification](specification/overview.md) 
 ## Concrete Documentation
 
 In the concrete documentation the specific tecnologies are specified and the execution is documented.
 
-[To the documentation](documentation/overview.md) 
+[To the documentation](documentation/overview.md)
+
+## Specification
+
+In the specification, the platform is described in an abstract way.
+
+[To the specification](specification/overview.md)
+
 ## Milestones
 
 We are planning to reach the following milestones in our project in the specified amount of time.

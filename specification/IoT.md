@@ -7,6 +7,7 @@ The IoT Device component acts as a bridge between the SmartMeter provided by the
 ## What is the Component About
 
 The IoT Device component is responsible for:
+
 - Establishing a connection to the SmartMeter, utilizing the specified connection method.
 - Collecting real-time energy data, including current power consumption and injection, as well as total consumption and injection.
 - Transmitting the collected data to the IoT Edge device for further processing.
@@ -36,12 +37,16 @@ The IoT Device component is responsible for:
 - **Instantaneous Current (I) in Phase L3:** Current in phase L3 in amperes.
 - **Instantaneous Voltage (U) in Phase L3:** Voltage in phase L3 in volts.
 - **Timestamp:** Time at which the data was recorded.
+- **Smart Meter ID:** Sequence of alphanumeric characters identifying a Smart Meter.
 
 ## Information Flow
 
 Data is collected from the SmartMeter through the M-Bus interface, ensuring a reliable and standardized method of communication.
 
 ## Features
+
+- continuously reads energy attributes from a Smart Meter
+- long-term storage needed or temporary enough?
 
 ### Privacy Concerns
 
