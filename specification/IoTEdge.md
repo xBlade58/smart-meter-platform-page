@@ -15,9 +15,14 @@ The IoT Edge component serves the following purposes:
 
 ## Input Parameters
 
-- Data from multiple smart meters.
-- Data from external devices such as photovoltaic panels.
-- ??
+- Data from multiple smart meters:
+  - TBD
+- Data from external devices such as photovoltaic panels:
+  - TBD
+- Configuration data from external applications:
+  - Login Data
+  - Intervall
+  - Definition of data sent to the cloud
 
 ## Output Parameters
 
