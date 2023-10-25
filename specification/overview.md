@@ -6,6 +6,15 @@ The **Open Meter Data Platform** is a solution designed to standardize a platfor
 
 ![a picture of the brainstorming platform diagram](images/brainstorming_platform_components.jpeg "brainstorming_platform_components")
 
+## Architecture
+
+There are different approaches to structure the architecture of such a _Open Meter Data Platform_ This part of the document should provide different approaches to structure the application. The most split up option which we call _Completely Divided Architecture_ is provided on this page. Every component, better described in this document is visualized in the following figure.
+
+![Completely Divided Architecture](images/full.png "Completely Divided Architecture")
+
+To get a better understanding of the options and modifications that could be usefull this subsection about [architectural options](ArchitecturalOptions.md) was created.
+
+
 ## Components
 
 ### [SmartMeter](SmartMeter.md)
