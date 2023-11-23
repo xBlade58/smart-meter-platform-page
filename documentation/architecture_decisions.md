@@ -36,6 +36,7 @@ Contra:
 
 * Edge publishes messages to a topic managed by a broker
 * Cloud subscribes to broker, therefore is notified whenever new messages come in.
+* For example MQTT
 
 Pro:
 
@@ -51,3 +52,5 @@ Contra:
 * Edge publishes to a broker
 * Cloud is subscribed to the broker, therefore is notified whenever new messages come in
 * Cloud responds asynchrounously to Edge after processing the message
+
+Ultimately, we decided to go with a Publish-Subscribe pattern via MQTTS as described in Scenario 3.
