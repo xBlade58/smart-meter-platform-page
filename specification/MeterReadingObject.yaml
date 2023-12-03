@@ -1,0 +1,60 @@
+MeterReading:
+      type: object
+      properties:
+        meterReadingIdentifier:
+          type: string
+          format: uuid
+        readingTime:
+          type: string
+          format: datetime
+        sequenceNumber:
+          type: number
+        faultCode:
+          type: string
+          format: faultCode
+        propertyValues:
+          type: array
+          items: 
+            # PropertyValues
+            type: object
+            properties:
+              unit:
+                type: string
+              date:
+                type: string
+                format: datetime
+              nummericalValue:
+                type: number
+              textValue:
+                type: string
+              operationalPropertyDefinition:
+                type: object
+                properties:
+                  propertyId:
+                    type: string
+                    format: uuid
+                  propertyName:
+                    type: string
+                  allowedUnits:
+                    type: array
+                    items:
+                      type: string
+        physicalMeter:
+          type: object
+          properties:
+            physicalElementId:
+              type: string
+              format: uuid
+            physicalElementName:
+              type: string
+            physicalElementVersionId:
+              type: string
+            physicalElementIsVirtual:
+              type: boolean
+            physicalMeterType:
+              type: string
+              enum:
+                - ELECTRICITY
+                - GAS
+                - WATER
+                - HEAT

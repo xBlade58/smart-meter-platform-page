@@ -18,8 +18,6 @@ Smart Meters measure a variety of parameters related to energy consumption, incl
 
 - **Current Power Consumption:** Instantaneous power consumption in watts.
 - **Current Power Injection:** Instantaneous power injection in watts.
-- **Current Total Consumption:** Total active energy consumption in watt-hours.
-- **Current Total Injection:** Total active energy injection in watt-hours.
 
 > [!NOTE]
 > Smart Meters may measure additional parameters based on specific configurations and requirements.
@@ -32,6 +30,15 @@ The [M-Bus](https://m-bus.com/) interface is a standardized communication protoc
 - **Current Power Injection:** Instantaneous power injection in watts.
 - **Current Total Consumption:** Total active energy consumption in watt-hours.
 - **Current Total Injection:** Total active energy injection in watt-hours.
+
+Additional Parameters
+
+- **Instantaneous Current (I) in Phase L1:** Current in phase L1 in amperes.
+- **Instantaneous Voltage (U) in Phase L1:** Voltage in phase L1 in volts.
+- **Instantaneous Current (I) in Phase L2:** Current in phase L2 in amperes.
+- **Instantaneous Voltage (U) in Phase L2:** Voltage in phase L2 in volts.
+- **Instantaneous Current (I) in Phase L3:** Current in phase L3 in amperes.
+- **Instantaneous Voltage (U) in Phase L3:** Voltage in phase L3 in volts.
 
 
 Other forms of output

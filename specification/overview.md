@@ -14,23 +14,55 @@ There are different approaches to structure the architecture of such a _Open Met
 
 To get a better understanding of the options and modifications that could be usefull this subsection about [architectural options](ArchitecturalOptions.md) was created.
 
+## Requirements Notation
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
+   document are to be interpreted as described in [RFC2119].
 
 ## Components
 
 ### [SmartMeter](SmartMeter.md)
 The **SmartMeter**, installed by the energy provider, is the foundation of the system. It measures real-time energy consumption and injection, providing accurate data for billing and analysis.
 
+Options for new name:
+==> *Meter Component*
+==> *Data Acquisition Node*
+==> *Sensor Node*
+
+
 ### [IoT Device](IoT.md) 
 The **IoT Device** acts as an intermediary between the SmartMeter and the IoT Edge component. It collects energy data using the M-Bus interface and securely transfers it to the IoT Edge device.
+
+Options for new name:
+==> *Meter Data Abstraction Component*
+==> *Data Aggregator*
+==> *Data Abstraction Unit*
 
 ### [IoT Edge](IoTEdge.md) 
 The **IoT Edge** component processes data collected from multiple SmartMeters and external devices locally. It offers flexibility through extension modules such as Data Sharing, Local Data Analytics, and Event Modules. The IoT Edge connects to the central cloud system to provide the collected data.
 
+Options for new name:
+==> *Local Aggregator and Connector Component*
+==> *Local Data Collector*
+==> *Data Collection Hub*
+
 ### [Cloud](Cloud.md) 
 The **Cloud** component serves as the centralized hub for the entire system. It handles vast amounts of data, provides APIs for querying and data provision, and ensures secure communication with other components.
 
+Options for new name:
+==> *Data Processing Component*
+==> *Data Processing Server*
+==> *Analytics Engine*
+
 ### [Visualizing Application ](App.md)
 The **Visualizing Application** offers an intuitive user interface for end-users. It connects to both the IoT Edge device and the Cloud, enabling users to monitor real-time energy data, access historical usage patterns, and receive alerts.
+
+Options for new name:
+==> *User Communication Component*
+==> *User Interface Module*
+==> *Visualization Interface*
+
 
 ## System Flow
 
