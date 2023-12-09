@@ -25,7 +25,7 @@ The communication from the SmartMeter to the Cloud is specified in this chapter.
 
 ### [Cloud Interfaces](4_CloudInterfaces/overview.md)
 
-Which interfaces must be available and which of them are just recommended is descibed in this chapter of the specification.
+Which interfaces MUST be available and which of them are just RECOMMENDED is descibed in this chapter of the specification.
 
 ---
 

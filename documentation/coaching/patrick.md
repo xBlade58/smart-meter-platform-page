@@ -50,7 +50,7 @@ Einigung: **SmartMeterAdapter**
 - Concentrator oder Aggregator
 ((Smart) Meter) Concentrator (Stefan) (Ralph sagt semi-nein) (Patrick sagt man kann mehrere Adapter anhängen, also wird das Präfix nicht benötigt)
 
-Einigung: **Concentrator????**
+Einigung: **Concentrator**
 
 #### Cloud:
 - Data (Collection) Hub (2.0) (Weil mir sammeln nur Daten, und die weiteren Funktionalitäten hängen da dran) (Ralph) (Ohne Collection zu generisch für Ralph) (2.0 kommt von Wolfang)

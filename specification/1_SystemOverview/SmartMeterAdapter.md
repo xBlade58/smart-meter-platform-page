@@ -1,5 +1,10 @@
 # SmartMeterAdapter
 
+
+- Anreichern von Informationen
+
+---
+
 ## Overview
 
 The SmartMeterAdapter acts as a bridge between the SmartMeter provided by the energy provider and the Concentrator. It establishes a connection to the SmartMeter, collects essential energy-related data, and transfers this data to the Concentrator for further processing and analysis. The connection method to the SmartMeter is specified by the SmartMeter itself, ensuring compatibility and seamless data retrieval.

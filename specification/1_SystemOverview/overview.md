@@ -1,6 +1,6 @@
 # System Overview
 
-The **Open Meter Data Platform** SHOULD consist of 4 different components. These components MUST NOT run on the same device. It is RECOMMENED to think about those components to be able to run on different devices.
+The **Open Meter Data Platform** SHOULD consist of at least four different components. These components MUST NOT run on the same device. It is RECOMMENED to think about those components to be able to run on different devices.
 
 The overall structure of these components should look like the following illustration.
 
@@ -26,7 +26,7 @@ As multiple smart meter's MAY exist in a small local environment, it MAY be usef
 [More details](Concentrator.md)
 
 > [!NOTE]
-> The SmartMeterAdapter and the Concentrator MAY be the two components which are in smaller environments likely running un the same device.
+> The SmartMeterAdapter and the Concentrator MAY be the two components which are in smaller environments likely running on the same device.
 
 ## Cloud
 

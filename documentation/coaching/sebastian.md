@@ -25,13 +25,9 @@ Participants: Sebastian Hegenbart, Mert Ötztürk, Justin Ströhle, Stefan Belle
 - Balkendiagramme
 - Diagramme mit Punkten (keine Durchgezogenen Linien)
 
-Ein Diagramm in der form einer Uhr könnte interessant sein
-
-TODO image from Diagram Nacht + Tag
+Ein Diagramm in der form einer Uhr könnte interessant sein um den Stromverbrauch im Kontext darzustellen.
 
 Man könnte eine Animation erstellen auf der am Smartphone in der App durch Tag und Nacht gescrollt werden kann und auf diesem, ein Stromverbrauch angezeigt wird ggf. mit Diagramm am unteren Rand oder auf andere spielerische weise.
-
-TODO Fancy Tag Nacht Animation
 
 ### KI Modelle
 

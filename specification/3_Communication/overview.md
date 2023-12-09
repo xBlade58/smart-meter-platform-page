@@ -1,33 +1,33 @@
+Communication Technologies
 
-TODO
+The whole set of defined components is visualised in the following figure. These four components SHOULD be implemented in a Smart Meter Platform.
 
-Kommunikationwege von SmartMeter zu Cloud
-    - (Publish & Subscribe darf man z.B. reinschreiben, also was verwendet werden sollte)
-
----
-
-CLOUD
-## Information Flow
-
-The information flow within the smart meter system involves five distinct types of data transmissions:
-
-- **From IoT Devices to Cloud:** Data from smart meters is transmitted to the cloud component. Examples include raw power consumption data, meter metadata, and status information.
-- **From Cloud to Visualizing Applications:** Processed and aggregated data is sent to visualization applications for user interfaces. Examples include real-time power consumption graphs, historical usage trends, and meter status updates.
-- **From Visualizing Applications to Cloud:** User commands and queries from visualization applications are sent back to the cloud for processing. Examples include user requests for specific consumption data or setting preferences.
-- **To Processing Application:** Relevant data can be queryed by specialized processing applications for in-depth analysis. Examples include data sets for machine learning algorithms or anomaly detection.
-- **From Processing Application to Cloud:** Analytical results and insights from processing applications are sent back to the cloud for storage and further distribution. Examples include anomaly detection alerts or predictive maintenance suggestions.
-
----
-
-concentrator
+    +----------+   +-----------------+   +------------+   +-----+
+    |SmartMeter|---|SmartMeterAdapter|---|Concentrator|---|Cloud|
+    +----------+   +-----------------+   +------------+   +-----+
 
 
-## Information Flow
+## Communication between SmartMeter and SmartMeterAdapter
 
-- **Data Collection:**
-  - Collects data from SmartMeter-IoT devices.
-  - Gathers data from devices within the household.
-  - Retrieves data from external APIs, e.g. weather data.
-- **Data Transmission:**
-  - Sends collected data to the central cloud system.
-  - Provides data to visualization applications via APIs for real-time monitoring and analysis.
+    +----------+   +-----------------+
+    |SmartMeter|---|SmartMeterAdapter|
+    +----------+   +-----------------+
+
+Communication to a SmartMeter will likely happen throug a hardware connection or a infrared interface. The communication method is defined by the SmartMeter. It defines which communication capabilities it offers.
+
+## Communication between SmartMeterAdapter and Concentrator
+
+    +-----------------+   +------------+
+    |SmartMeterAdapter|---|Concentrator|
+    +-----------------+   +------------+
+
+The Concentrator MAY be concentrating in some usecases multiple SmartMeterAdapter's. In other usecases it MAY only connect to one SmartMeterAdapter. In the last case it is RECOMMENDED to use the same device to accomplish this tasks.
+
+## Communication between Concentrator and Cloud
+
+    +------------+   +-----+
+    |Concentrator|---|Cloud|
+    +------------+   +-----+
+
+Because in the SmartMeterPlatform multiple concentrator's will exist, the communication technology SHOULD be based on a publish & subscribe technology. With this approach a loose coupling can be realised and it is also highly scalable.
+
