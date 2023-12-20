@@ -2,13 +2,21 @@
 
 ## Eckdaten
 
-Datum: ??.12.2023 ToBeDefined!
-Beginning: 9:35??
-End: 10:15??
+Datum: 11.01.2024
+Beginning: 10.00
+End: ??:??
 Participants: Walter Ritter, Mert Ötztürk, Justin Ströhle, Stefan Beller
 
 ## Topics to Discuss
 
+User experience
+Dokumentation für den User hilfreich? 
+Tools zum erstellen?
 
+## Discussion
 
-## Results of discussion
+TODO
+
+## Results of Discussion
+
+TODO

@@ -12,8 +12,7 @@ Participants: Sebastian Hegenbart, Mert Ötztürk, Justin Ströhle, Stefan Belle
 - Visualisierung von Daten und welche Daten sind sinnvoll
 - KI integration in unsere Architektur
 
-## Results of discussion
-
+## Discussion
 
 ### Was will der Kunde sehen?
 - Schwierig - einen nutzen für den Kunden zu bringen
@@ -36,3 +35,8 @@ Es sollte offen gelassen werden, wo im System ein KI Modell zu platzieren ist, j
 Allgemein kann gesagt werden, es ist abhängig vom Usecase und es sollte im idealfall dort gemacht werden, wo die Daten verfügbar sind.
 
 In der Spezifikation ist ein KI Modell als Processing Component zu sehen, das heißt, die Komponente holt Daten ab und liefert sie ggf. wieder zurück falls das angedacht ist. Wie es in der Komponente verarbeitet wird, ist für das darüberliegende System nicht relevant.
+
+## Results of Discussion
+
+- Daten darstellen die für den Nutzer relevant sind
+- Ein KI modell wäre in unserer Spezifikation eine Erweiterung der Cloud also eine Processing Component.

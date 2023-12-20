@@ -3,7 +3,7 @@
 ## Eckdaten
 
 Datum: 07.12.2023 
-Beginning: 10:48 
+Beginning: 10:45
 End: 11:25
 Participants: Peter Reiter, Mert Ötztürk, Justin Ströhle, Stefan Beller
 
@@ -14,13 +14,16 @@ Participants: Peter Reiter, Mert Ötztürk, Justin Ströhle, Stefan Beller
 - one household could have multiple smart meters?
 - calling the data - what makes sense?
 
-## Results of discussion
+## Discussion
 
 ### Architecture
 
 Mert: Inhalt des Coachings - Architektur und Spezifikationsthemen
+Vorzeigen von unserer implementierten Architektur
 Architecture ist Hexagonal
 Erklärungen zur Architektur
+Klassen kommentieren
+Autoren der Klassen
 
 Peter: Gut das Technische annotationen ausgelagert sind. Timestamp ist für ein Meterreading nicht ausreichend als id. In der Swedish defence documentation ist eine explizite id per meter reading spezifiziert - sollten wir hier dann auch so umsetzen.
 
@@ -29,17 +32,19 @@ Peter: _Timestamp with Timezone Datatype_ wäre sinnvoll zu verwenden.
 ### Wieviele Smart Meter pro Household?
 
 Peter: Houshold hat mehrere Smart Meter wenn z.B. eingespeist wird und für dies ein zweites SmartMeter verwendet wird.
+Household 1 ... n SmartMeter (z.B. PV Anlage --> 2. SM)
 
 ### Cloud Interfaces in der Dokumentation
 
 Stefan: Introduction zu CloudInterfaces
 
 Peter: 
-Daten abholen gibts mehrere Möglichkeiten
+Für den Datenzugriff gibts mehrere Möglichkeiten
 - FTP Server (nicht unplausiebel)
 - Rest schnitstelle
 - JDBC Schnitstelle
 - Graph QL
+- Vorschläge machen, und Beispiele implementieren
 - ...
 
 Ein interessantes Buch zum Thema wäre _Data Management at Scale | by Piethein Strengholt_
@@ -53,7 +58,6 @@ Peter: Grundsätzlich eine Möglichkeit, typischerweise ist es wichtig Daten nur
 
 Supabase ist auch eine interessante Technologie die man sich ansehen könnte.
 
-## todos
+## Resultate der Diskussion
 
 Peter bringt nächste Woche das Buch "Data Management at Scale | by Piethein Strengholt" mit.
-

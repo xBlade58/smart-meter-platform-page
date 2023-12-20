@@ -7,11 +7,12 @@ MeterReading:
         readingTime:
           type: string
           format: datetime
-        sequenceNumber:
-          type: number
+          description: timezone information MUST be included
         faultCode:
           type: string
           format: faultCode
+          required: false
+          description: TODO: to be defined!
         propertyValues:
           type: array
           items: 
@@ -39,22 +40,46 @@ MeterReading:
                     type: array
                     items:
                       type: string
-        physicalMeter:
+        meterIndividual:
+          description: "actual physical meter"
           type: object
-          properties:
-            physicalElementId:
-              type: string
-              format: uuid
-            physicalElementName:
-              type: string
-            physicalElementVersionId:
-              type: string
-            physicalElementIsVirtual:
-              type: boolean
-            physicalMeterType:
-              type: string
-              enum:
-                - ELECTRICITY
-                - GAS
-                - WATER
-                - HEAT
+            properties:
+              meterIndividualId:
+                type: string
+                format: uuid
+              housholdId:
+                type: string
+                format: uuid
+              physicalMeterType:
+                type: object
+                properties:
+                  physicalElementId:
+                    type: string
+                    format: uuid
+                  physicalElementName:
+                    type: string
+                  physicalElementVersionId:
+                    type: string
+                  physicalElementIsVirtual:
+                    type: boolean
+                  physicalMeterClass:
+                    type: string
+                    enum:
+                      - ELECTRICITY
+                      - GAS
+                      - WATER
+                      - HEAT
+                  physicalMeterOperationalProperties:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        propertyId:
+                          type: string
+                          format: uuid
+                        propertyName:
+                          type: string
+                        allowedUnits:
+                          type: array
+                          items:
+                            type: string

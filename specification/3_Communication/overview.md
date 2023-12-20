@@ -23,6 +23,10 @@ Communication to a SmartMeter will likely happen throug a hardware connection or
 
 The Concentrator MAY be concentrating in some usecases multiple SmartMeterAdapter's. In other usecases it MAY only connect to one SmartMeterAdapter. In the last case it is RECOMMENDED to use the same device to accomplish this tasks.
 
+The SmartMeterAdapter MUST publish to a publish subscribe architecture where mqtt SHOULD be used. The topic structure MUST look like `smartMeterMessage/[smartMeterId]/[specificTopic]`.
+
+To connect to the SmartMeterAdapter the Concentrator MUST subscribe to the topic `smartMeterMessage/*` in the publish subscribe service.
+
 ## Communication between Concentrator and Cloud
 
     +------------+   +-----+
@@ -31,3 +35,6 @@ The Concentrator MAY be concentrating in some usecases multiple SmartMeterAdapte
 
 Because in the SmartMeterPlatform multiple concentrator's will exist, the communication technology SHOULD be based on a publish & subscribe technology. With this approach a loose coupling can be realised and it is also highly scalable.
 
+The Concentrator MUST publish to a publish subscribe architecture where mqtt SHOULD be used. The topic structure MUST look like `concentrator/[concentratorId]/smartMeterMessage/[smartMeterId]/[specificTopic]`.
+
+To connect to the SmartMeterAdapter the Concentrator MUST subscribe to the topic `concentrator/*` in the publish subscribe service.

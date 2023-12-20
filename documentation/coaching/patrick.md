@@ -17,7 +17,7 @@ Teilnehmer: Patrick Ritschel, Wolfgang Auer, Ralph Hoch, (Peter Reiter), Mert Ö
 - QoS for MQTT
     - Mqtt settings??
 
-## Resultate der Diskussion
+## Diskussion
 
 ### Namensgebung für Komponenten
 
@@ -93,7 +93,7 @@ Um für unsere konkrete Umsetzung die Richtige einstellung für QoS zu finden si
 
 => Zeitstempel vom erstellen der Daten ist immer relevant!
 
-## ToDos
+## Resultate der Diskussion
 
 - Für konkrete Implementierung fragen für QoS beantworten
 - Das wording in den Dokumenten und im System ändern. Das ändern des wordings sollte im Ticket #22 erledigt werden.
