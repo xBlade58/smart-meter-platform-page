@@ -1,31 +1,10 @@
-# Cloud Component Specification
+TODO
+
+# CloudInterfaces
 
 ## Overview
 
 The cloud component serves as the central hub in the smart meter system architecture. It acts as a layer above IoT (Edge) devices, managing vast amounts of data, and facilitating seamless communication between system elements such as IoT Devices, third party cloud api's, own api's and internal data processing services. The cloud component is designed to handle several gigabytes of data per day and provides robust APIs for serving and querying data.
-
-## Input Parameters
-
-- **Meta Data per Smart Meter:** Metadata associated with each smart meter for identification and contextual information. Such as
-  - Household information (Type, number of occupantes)
-  - Smart Meter ID
-  - Timestamp
-  - Interval
-- **Current Data from Smart Meters:** Real-time data from smart meters, including:
-  - Current Power Consumption
-  - Current Power Injection
-  - Current Total Consumption
-  - Current Total Injection
-
-  -> TODO replace Injection and other Terms with more technical ones
-
-## Output Parameters
-
-The cloud component processes input data and provides the following output parameters:
-
-- All input data from smart meters or rather the data selected by the user in the IoT-Edge device.
-- Processed data from various algorithms and computations.
-- Special queries results tailored to specific requirements.
 
 ## Information Flow
 
