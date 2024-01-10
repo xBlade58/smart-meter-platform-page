@@ -6,7 +6,7 @@ The cloud component serves as the central data hub in the smart meter system arc
 
 ## Components of the Cloud
 
-The cloud consists of different components to consider. 
+The cloud consists of different components to consider.
 
 ### DataStorage
 

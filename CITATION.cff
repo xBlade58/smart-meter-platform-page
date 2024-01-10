@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ötztürk"
+  given-names: "Mert"
+- family-names: "Ströhle"
+  given-names: "Justin"
+- family-names: "Beller"
+  given-names: "Stefan"
+title: "Smart Meter Platform"
+version: 2.0.4
+date-released: 2024-01-25
+url: "https://github.com/xBlade58/smart-meter-platform-page"

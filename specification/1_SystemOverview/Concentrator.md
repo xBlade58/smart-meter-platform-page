@@ -1,25 +1,18 @@
 # Concentrator
 
-The Concentrator component acts as an intermediary between individual SmartMeterAdapter attached to smart meters and the optional central cloud system. Its primary function is to transmit relevant information to the cloud. 
+The Concentrator component acts as an intermediary between individual SmartMeterAdapter attached to SmartMeter's and the optional central cloud system. Its primary function is to transmit relevant information to the cloud and concentrate multiple SmartMeterAdapter's if configured. 
 
 ## What is the Component About
 
-The Concentrator component serves the following purposes:
+The Concentrator component is the element between the SmartMeterAdapter's and the Cloud. It can be configured to act as a Concentrator for multiple SmartMeterAdapters.
 
-- **Data Collection:** Gathers data from multiple smart meters in close proximity to the hardware smart meter.
-- **Cloud Integration:** Transmits collected data and metadata to the central cloud system.
+### Data Collection
 
+The Concentrator connects to one or more SmartMeterAdapter components. How this connection is established is defined in the section [3_Communication](./../3_Communication/overview.md). SmartmeterAdapter components are from the top level view of the concentrator in close proximity to the Concentrator.
 
-## Privacy Concerns
+### Provide Data to the Cloud
 
-- **Data Segregation:** Ensures data from smart meters is accessible only to the specific household owner, enhancing privacy.
-- **Local Processing:** Utilizes local data analytics and processing, reducing the need to transmit sensitive data to external systems.
-- **Data Minimization:** Minimizes the data sent to the cloud, reducing the risk of privacy breaches:
-  - User defines a custom intervall to merge and send the data (e.g. 1hr means the data collected within one hour is merged and sent to the cloud).
-  - User defines the data that is sent.
+Data is not manipulated and provided to the cloud as received from the SmartMeterAdapter component. Communication is established as described in the [3_Communication](./../3_Communication/overview.md) section.
 
-## Security Concerns
-
-- **Multi-Smart Meter Support:** Supports multiple smart meters on a single edge device, optimizing resource utilization and scalability.
-- **Secure Connections:** Utilizes secure communication protocols to protect connections between SmartMeterAdapter and the edge component.
-- **Authentication and Authorization:** Implements robust authentication and authorization mechanisms to ensure only authorized devices can interact with the edge component.
+> [!NOTE]
+> In some cases this functionality will be implemented on the same hardware device as the SmartMeterAdapter. In this specific case, this Concentrator will only connect to one SmartMeterAdapter.

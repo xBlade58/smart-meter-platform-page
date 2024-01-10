@@ -9,7 +9,7 @@ The specification comprises a SysML Block that represents the template and an as
 
 The Swedish Defence Materiel Administration provides a diagram of the data structure used in the system. Because the whole structure is to specific and not needed in this detail, we have reduced it to the following subset that SHOULD be implemented in this system. The followin image shows this subset.
 
-![Interesting Part of the Swedish Defence Specification Diagram](images/partFromSwedishDefence.png "Interesting Part of the Swedish Defence Specification Diagram")
+![Interesting Part of the Swedish Defence Specification Diagram](images/datastructure.png "Interesting Part of the Swedish Defence Specification Diagram")
 [Full Diagram](http://www.plcs.org/plcslib/plcslib/data/contexts/SwedishDefence/dexs/OperationalData/dex_business_information_model.html#Model_Diagrams)
 
 ## The components of the data model
