@@ -8,7 +8,7 @@ The whole set of defined components is visualized in the following figure. More 
 
 ### Communication Technologies
 
-The communication technologies in this document are not specified strict. It is specified which basic technology MUST be used and there is a explicit technology defined that SHOULD be used in order to reach the goal of interconnectivity of different implementations. In some cases it MAY be useful to use other technologies which is ok. The only restriction is to stick to the agreed data formats as defined in [2_DataModel](./../2_DataModel/overview.md) and to stick to the topic structure as defined in this document.
+The communication technologies in this document are not specified strictly. It is specified which basic technology MUST be used and there is a explicit technology defined that SHOULD be used in order to reach the goal of interconnectivity of different implementations. In some cases it MAY be useful to use other technologies which is fine. The only restriction is to stick to the agreed data formats as defined in [2_DataModel](./../2_DataModel/overview.md) and to stick to the topic structure while doing "messaging" as defined in this document.
 
 ### Topic Structures
 
