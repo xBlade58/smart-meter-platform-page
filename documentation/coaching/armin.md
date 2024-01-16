@@ -20,7 +20,7 @@ Allgemein kann man sagen, dass es speziell bei Verbindungen Überlegungen zur se
 
 Für unsere Spezifikation und Umsetzung könnte **Differential Privacy** interessant sein -> d.h. identifizierende Attribute werden entfernt. Quasi identifizierende werden basierend darauf, ob sie in ausreichender Anzahl in der Abfrage vorkommen, "anonymisiert". Annonymisiert heißt, dass das Attribut entweder randomisiert oder weglassen wird. Es ist auch möglich anfragen komplett abzulehnen die zu wenige daten enthalten würden.
 
-Wenn man als beispiel die Daten einer kleinen gemeinde abfragen würde und in den Daten die Anzahl kinder zurückgegeben würde, wäre die Familie mit 7 Kindern schnell identifiziert. Daher würde dann das Attribut Kinder annonymisiert werden. Die Annonymisierung sollte aber auch zweckmäßig sein, das heißt man würde nicht davon ausgehen, dass jemand aufgrund der solareinspeisungswerte den standort herausfinden könnte, das wäre zu abstrakt.
+Wenn man als Beispiel die Daten einer kleinen Gemeinde abfragen würde und in den Daten die Anzahl Kinder zurückgegeben würde, wäre die Familie mit 7 Kindern schnell identifiziert. Daher würde man dann das Attribut "Kinder" annonymisiert werden. Die Annonymisierung sollte aber auch zweckmäßig sein, das heißt man würde nicht davon ausgehen, dass jemand aufgrund der Solareinspeisungswerte den Standort herausfinden könnte, das wäre zu abstrakt.
 
 Es muss möglich sein, dass die Besitzer:in von Daten alle nicht anonymisierten Daten löschen kann.
 
