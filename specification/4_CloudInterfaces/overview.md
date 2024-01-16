@@ -133,7 +133,7 @@ The data query interface SHOULD not return less than 20 data rows. If less than 
 
 ## Cleaning Data
 
-As a logged in user with rights to delete data entries, a user MUST have the ability to delete collected MeterReadings.
+As a logged-in user with rights to delete data entries, a user MUST have the ability to delete collected MeterReadings.
 
 The deletion interface is a http delete endpoint with the id of the MeterReading to delete as a parameter.
 
