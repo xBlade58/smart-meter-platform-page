@@ -34,7 +34,7 @@ Ein noch neues aber spannendes Thema bzw. Technologie ist: Attribute based encry
 
 Großes Problem -> wo ist der Schlüssel gespeichert? Lösung kann sein dies in einem HSM abzulegen. Die Software HashiCorp Vault kann auch interessant sein.
 
-Wenn Daten verschlüsselt gespeichert sind, ist die "Schwachstelle" der User der ggf. sein Passwort verliert. Hier kann MFA sinnvoll sein, allerdings ist der Betreiber nicht haftbar zu machen wenn user daten durch unachtsammes handeln verlieren.
+Wenn Daten verschlüsselt gespeichert sind, ist die "Schwachstelle" der User der ggf. sein Passwort verliert. Hier kann MFA sinnvoll sein, allerdings ist der Betreiber nicht haftbar zu machen wenn User-Daten durch unachtsammes Handeln verlieren.
 
 ## Results of Discussion
 
