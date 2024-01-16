@@ -137,5 +137,5 @@ As a logged-in user with rights to delete data entries, a user MUST have the abi
 
 The deletion interface is a http delete endpoint with the id of the MeterReading to delete as a parameter.
 
-`DELETE [HOSTNAME]/[OPTIONAL_PATH]/v1/meterReadings?id={MeterReadingId}`
+For example: `DELETE [HOSTNAME]/[OPTIONAL_PATH]/v1/meterReadings?id={MeterReadingId}`
   
