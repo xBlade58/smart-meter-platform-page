@@ -26,7 +26,7 @@ Es muss möglich sein, dass die Besitzer:in von Daten alle nicht anonymisierten 
 
 Die Daten dürfen allerdings auch nicht soweit anonymisiert werden, dass diese keiner Besitzer:in zugeordnet werden könnte.
 
-Allgemein ist das Verschlüsseln von daten immer eine einfache und effektive Methode. Die Frage die immer geklärt werden muss, ist wer den schlüssel bekommt.
+Allgemein ist das Verschlüsseln von daten immer eine einfache und effektive Methode. Die Frage die immer geklärt werden muss, ist wer den Schlüssel bekommt.
 
 Daten grundsätzlich verschlüsseln, wer hat zugriff auf welche Daten?
 
