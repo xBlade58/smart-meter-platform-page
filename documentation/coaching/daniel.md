@@ -19,7 +19,9 @@ Vorzeigen vom aktuellen Stand
 
 ### Spezifikation
 
-**Problemstellung der Spezifikation:** Die Spezifikation sollte sich auf die Lösung von Kompatibilitäts- und Austauschbarkeitsproblemen konzentrieren. Möglicherweise ist es ratsam, bestimmte Standards wie MQTT oder Formatvorgaben in der Spezifikation festzulegen. Bei der Festlegung der Spezifikation gibt es einen schmalen Grat zwischen Freiheiten und Einschränkungen. Wir sollten uns darauf konzentrieren, welches Problem die Spezifikation lösen soll. Es ist entscheidend, Szenarien durchzudenken, in denen die Spezifikation unterstützen soll, insbesondere auch bei der Implementierung eines neuen Smart Meter Adapters.
+**Problemstellung der Spezifikation:**
+
+Die Spezifikation sollte sich auf die Lösung von Kompatibilitäts- und Austauschbarkeitsproblemen konzentrieren. Möglicherweise ist es ratsam, bestimmte Standards wie MQTT oder Formatvorgaben in der Spezifikation festzulegen. Bei der Festlegung der Spezifikation gibt es einen schmalen Grat zwischen Freiheiten und Einschränkungen. Wir sollten uns darauf konzentrieren, welches Problem die Spezifikation lösen soll. Es ist entscheidend, Szenarien durchzudenken, in denen die Spezifikation unterstützen soll, insbesondere auch bei der Implementierung eines neuen Smart Meter Adapters.
 
 **Publish-Subscribe-Ansatz**
 Die Anpassung des Folgelayers ist akzeptabel, vorausgesetzt, sie abstrahiert den weiteren Folgelayer. Bei der Formulierung der Spezifikation ist die Verwendung von "must", "should", etc. gemäß RFC 2119 zu berücksichtigen. Eine Frage, die aufkommt, ist, ob wir uns in Richtung des ISO-OSI-Modells bewegen möchten. Es könnte sinnvoll sein, die Spezifikation auf einem bestimmten Detailniveau zu gestalten oder so präzise wie das HTTP-Protokoll. Wir müssen die Gültigkeitsdauer der Spezifikation berücksichtigen, da sie ansonsten bei Einführung neuer Technologien obsolet werden könnte. Die Einbindung einer REST API wirft wiederum Fragen auf, insbesondere in Bezug auf die Verbindung mit zusätzlichen Systemen.
