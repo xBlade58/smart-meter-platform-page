@@ -28,6 +28,9 @@ The _PropertyValue_ is a flexible element of this specification and for one _Met
 
 A single _PropertyValue_ belongs to a overall category, in order to combine the same propertys from different meter readings. The _OperationalPropertyDefinition_ MUST define an ID and SHOULD define a name. It MAY specify allowed units and a description.
 
+> [!NOTE]
+> The purpose of an OperationalProperty is to make the same values from different souces comparable. Two SmartMeter's measuring the same value should use the same property.
+
 ### PhysicalMeterElement
 
 A generation of SmartMeter's from the same Manufacturer offering the same OperationalProperty's SHOULD be considered as one _PhysicalMeterElement_. A _PhysicalMeterElement_ MUST specify the set of _OperationalProperty's_ the _PhysicalMeterElement_ can provide. The _PhysicalMeterElement_ SHOULD also specify meta information about the SmartMeter it represents such as a name and a description.
