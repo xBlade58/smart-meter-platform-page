@@ -32,7 +32,7 @@ Daten grundsätzlich verschlüsseln, wer hat zugriff auf welche Daten?
 
 Ein noch neues aber spannendes Thema bzw. Technologie ist: Attribute based encryption.
 
-Großes Problem -> wo ist der Schlüssel gespeichert? Lösung kann sein dies in einem HSM abzulegen. Die Software Vault kann auch interessant sein.
+Großes Problem -> wo ist der Schlüssel gespeichert? Lösung kann sein dies in einem HSM abzulegen. Die Software HashiCorp Vault kann auch interessant sein.
 
 Wenn Daten verschlüsselt gespeichert sind, ist die "Schwachstelle" der User der ggf. sein Passwort verliert. Hier kann MFA sinnvoll sein, allerdings ist der Betreiber nicht haftbar zu machen wenn user daten durch unachtsammes handeln verlieren.
 
