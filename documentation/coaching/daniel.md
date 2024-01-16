@@ -31,6 +31,7 @@ Eine gute Austauschbarkeit erfordert möglicherweise eine konkretere Definition 
 _Zusammenfassung: Es ist wichtig festzulegen, wie hoch der Abstraktionsgrad der Spezifikation sein soll._
 
 **Referenzimplementierung**
+
 Diskussion um die hexagonale Architektur. Die Definition der Ports erfolgt durch das Modell. Das Repository Interface sollte im Model definiert werden, wobei das Domain Layer die Abfragen vorgibt. Die Application-Schicht bildet die Use Cases ab und behandelt klassischerweise Sicherheitsaspekte. Die Diskussion, ob Ports ins Domain Model gehören, führte zu dem Schluss, dass sie dort hingehören, um eine klare Trennung zu ermöglichen.
 
 Es besteht die Debatte, ob bestimmte Services als Domain oder Application Service betrachtet werden sollten. Die Domänenlogik sollte klar im Domain Layer bleiben, während die Anwendungsschicht sich um Aspekte wie die Handhabung von Frameworks kümmert.
