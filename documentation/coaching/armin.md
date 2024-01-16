@@ -5,7 +5,7 @@
 Datum: 07.12.2023
 Beginning: 10:00
 End: 10:43
-Participants: Armin Simma, Mert Ötztürk, Justin Ströhle, Stefan Beller
+Participants: Armin Simma, Mert Öztürk, Justin Ströhle, Stefan Beller
 
 ## Topics to Discuss
 
