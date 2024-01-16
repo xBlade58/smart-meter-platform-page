@@ -56,7 +56,7 @@ Einigung: **Concentrator**
 - Data (Collection) Hub (2.0) (Weil mir sammeln nur Daten, und die weiteren Funktionalitäten hängen da dran) (Ralph) (Ohne Collection zu generisch für Ralph) (2.0 kommt von Wolfang)
 - Even Bigger Data Hub (Peter)
 - Yet Another Data Hub
-- "uf die größe kuts ne druf a" - Patrick
+- "uf die größe kuts ne druf a" - (Patrick)
 - Cloud ist kein schlechter Name (Wolfgang)
 
 Einigung: **Cloud**
