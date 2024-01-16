@@ -83,7 +83,7 @@
       "physicalElementName": "Electrical Smart Meter - 3 Phases",
       "physicalElementVersionId": "abcdef12-3456-7890-abcd-ef1234567890",
       "physicalElementIsVirtual": false,
-      "physicalMeterCategory": "ELECTRICITY"
+      "physicalMeterClass": "ELECTRICITY"
     }
   }
 }

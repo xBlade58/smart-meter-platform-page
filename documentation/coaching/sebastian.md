@@ -15,7 +15,7 @@ Participants: Sebastian Hegenbart, Mert Öztürk, Justin Ströhle, Stefan Beller
 ## Diskussion
 
 ### Was will der Kunde sehen?
-- Schwierig - einen nutzen für den Kunden zu bringen
+- Schwierig - einen Nutzen für den Kunden zu bringen
 - ggf. Trends anzeigen
 - Mehrverbrauch im Monat
 
@@ -26,11 +26,11 @@ Participants: Sebastian Hegenbart, Mert Öztürk, Justin Ströhle, Stefan Beller
 
 Ein Diagramm in der form einer Uhr könnte interessant sein um den Stromverbrauch im Kontext darzustellen.
 
-Man könnte eine Animation erstellen auf der am Smartphone in der App durch Tag und Nacht gescrollt werden kann und auf diesem, ein Stromverbrauch angezeigt wird ggf. mit Diagramm am unteren Rand oder auf andere spielerische weise.
+Man könnte eine Animation erstellen auf der am Smartphone in der App durch Tag und Nacht gescrollt werden kann und auf diesem, ein Stromverbrauch angezeigt wird ggf. mit Diagramm am unteren Rand oder auf andere spielerische Weise.
 
 ### KI Modelle
 
-Es sollte offen gelassen werden, wo im System ein KI Modell zu platzieren ist, je nach Anwendungsfall macht eine globale Lösung sinn und für lokale Probleme ist auch aus Datenschutzsicht eine lokale auswertung sinnvoll.
+Es sollte offen gelassen werden, wo im System ein KI Modell zu platzieren ist, je nach Anwendungsfall macht eine globale Lösung sinn und für lokale Probleme ist auch aus Datenschutzsicht eine lokale Auswertung sinnvoll.
 
 Allgemein kann gesagt werden, es ist abhängig vom Usecase und es sollte im idealfall dort gemacht werden, wo die Daten verfügbar sind.
 

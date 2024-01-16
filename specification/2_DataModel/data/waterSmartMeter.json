@@ -32,7 +32,7 @@
             "physicalElementName": "Water Consumption Meter - Household",
             "physicalElementVersionId": "abcdef12-3456-7890-abcd-ef1234567891",
             "physicalElementIsVirtual": false,
-            "physicalMeterCategory": "WATER"
+            "physicalMeterClass": "WATER"
         }
     }
     }
