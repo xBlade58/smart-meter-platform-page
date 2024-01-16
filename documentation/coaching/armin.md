@@ -16,7 +16,7 @@ Dataprotection -> what to consider (anonymization)
 ## Discussion
 
 Die Secure Varianten sollten immer verwendet werden, z.B. MQTTs.
-Allgemein kann man sagen, dass es speziell bei verbindungen überlegungen zur security gibt und beim Speichern von daten geht's um Privacy. Privacy hat aber immer auch implikationen auf die Security!
+Allgemein kann man sagen, dass es speziell bei Verbindungen Überlegungen zur security gibt und beim Speichern von daten geht's um Privacy. Privacy hat aber immer auch implikationen auf die Security!
 
 Für unsere Spezifikation und Umsetzung könnte **Differential Privacy** interessant sein -> d.h. identifizierende attribute werden entfernt. Quasi identifizierende werden basierend darauf, ob sie in ausreichender zahl in der abfrage vorkommen "anonymisiert". Annonymisiert heißt dass adas attribut entweder randomisiert oder weglassen wird. Es ist auch möglich anfragen komplett abzulehnen die zu wenige daten enthalten würden.
 
