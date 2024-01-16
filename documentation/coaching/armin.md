@@ -38,7 +38,7 @@ Wenn Daten verschlüsselt gespeichert sind, ist die "Schwachstelle" der User der
 
 ## Results of Discussion
 
-- im datenmodell die beforzugte variante der speicherung angeben.
-- was sollte bei der Afrage bzgl. anonymisierung möglich sein? Das sollte im Interface Dokument spezifziert werden.
-- nur notwendige daten erfassen.
+- im Datenmodell die beforzugte Variante der Speicherung angeben.
+- was sollte bei der Anfrage bzgl. Anonymisierung möglich sein? Das sollte im Interface Dokument spezifziert werden.
+- nur notwendige Daten erfassen.
 
