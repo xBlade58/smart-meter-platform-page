@@ -5,14 +5,14 @@
 Datum: 30.11.2023
 Beginning: 9:35
 End: 10:15
-Participants: Sebastian Hegenbart, Mert Ötztürk, Justin Ströhle, Stefan Beller
+Participants: Sebastian Hegenbart, Mert Öztürk, Justin Ströhle, Stefan Beller
 
-## Topics to Discuss
+## Zu besprechende Themen
 
 - Visualisierung von Daten und welche Daten sind sinnvoll
 - KI integration in unsere Architektur
 
-## Discussion
+## Diskussion
 
 ### Was will der Kunde sehen?
 - Schwierig - einen nutzen für den Kunden zu bringen
@@ -36,7 +36,7 @@ Allgemein kann gesagt werden, es ist abhängig vom Usecase und es sollte im idea
 
 In der Spezifikation ist ein KI Modell als Processing Component zu sehen, das heißt, die Komponente holt Daten ab und liefert sie ggf. wieder zurück falls das angedacht ist. Wie es in der Komponente verarbeitet wird, ist für das darüberliegende System nicht relevant.
 
-## Results of Discussion
+## Resultate der Diskussion
 
 - Daten darstellen die für den Nutzer relevant sind
 - Ein KI modell wäre in unserer Spezifikation eine Erweiterung der Cloud also eine Processing Component.

@@ -7,13 +7,13 @@ Start: 10:00
 End: 10:43
 Participants: Armin Simma, Mert Öztürk, Justin Ströhle, Stefan Beller
 
-## Topics to Discuss
+## Zu besprechende Themen
 
-Security Considerartions
-Connections of the Platform
-Dataprotection -> what to consider (anonymization)
+- Was gibt es bei Security zu beachten?
+- Verbindungen der Platform
+- Datensicherheit -> was soll beachtet werden? (Anonymisierung)
 
-## Discussion
+## Diskussion
 
 Die Secure Varianten sollten immer verwendet werden, z.B. MQTTs.
 Allgemein kann man sagen, dass es speziell bei Verbindungen Überlegungen zur security gibt und beim Speichern von daten geht's um Privacy. Privacy hat aber immer auch implikationen auf die Security!
@@ -36,7 +36,7 @@ Großes Problem -> wo ist der Schlüssel gespeichert? Lösung kann sein dies in 
 
 Wenn Daten verschlüsselt gespeichert sind, ist die "Schwachstelle" der User der ggf. sein Passwort verliert. Hier kann MFA sinnvoll sein, allerdings ist der Betreiber nicht haftbar zu machen wenn User-Daten durch unachtsammes Handeln verlieren.
 
-## Results of Discussion
+## Resultate der Diskussion
 
 - im Datenmodell die beforzugte Variante der Speicherung angeben.
 - was sollte bei der Anfrage bzgl. Anonymisierung möglich sein? Das sollte im Interface Dokument spezifziert werden.

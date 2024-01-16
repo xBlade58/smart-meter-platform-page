@@ -5,18 +5,18 @@
 Datum: 07.12.2023 
 Beginning: 10:45
 End: 11:25
-Participants: Peter Reiter, Mert Ötztürk, Justin Ströhle, Stefan Beller
+Participants: Peter Reiter, Mert Öztürk, Justin Ströhle, Stefan Beller
 
-## Topics to Discuss
+## Zu besprechende Themen
 
 - datatypes in use
-- use of timescale
-- one household could have multiple smart meters?
-- calling the data - what makes sense?
+- Verwendung von timescale db
+- Ein household kann mehrere smart meters haben?
+- Was macht beim Abfragen der Daten sinn?
 
-## Discussion
+## Diskussion
 
-### Architecture
+### Architektur
 
 Mert: Inhalt des Coachings - Hexagonale Architektur und Spezifikationsthemen
 Vorzeigen von unserer implementierten Architektur

@@ -5,15 +5,15 @@
 Datum: 14.12.2023
 Beginning: 10:05
 End: 11:25
-Participants: Daniel Rotter, Mert Ötztürk, Justin Ströhle, Stefan Beller
+Participants: Daniel Rotter, Mert Öztürk, Justin Ströhle, Stefan Beller
 
-## Topics to Discuss
+## Zu besprechende Themen
 
 - Architektur von der data processing component
 - Household service / Meter Service
-- Ways of communication
+- Arten der Kommunikation
 
-## Discussion
+## Diskussion
 
 Vorzeigen vom aktuellen Stand
 
@@ -40,7 +40,7 @@ Es besteht die Debatte, ob bestimmte Services als Domain oder Application Servic
 **Services**
 Es wird diskutiert, ob DTOs als Rückgabetyp verwendet werden sollten, wobei die praktische Anwendbarkeit gegenüber rein akademischen Ansätzen abgewogen wird.
 
-## Results of Discussion
+## Resultate der Diskussion
 
 - Festlegen, wie die Abstraktionsebene der Spezifikation definiert wird.
 - Klären, welche Services als Domain oder Application Service eingestuft werden sollen.

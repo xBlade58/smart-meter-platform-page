@@ -5,7 +5,7 @@
 Datum: 30.11.2023
 Anfang: 10:35
 Ende: 11:25
-Teilnehmer: Patrick Ritschel, Wolfgang Auer, Ralph Hoch, (Peter Reiter), Mert Ötztürk, Justin Ströhle, Stefan Beller
+Teilnehmer: Patrick Ritschel, Wolfgang Auer, Ralph Hoch, (Peter Reiter), Mert Öztürk, Justin Ströhle, Stefan Beller
 
 ## Zu besprechende Themen
 
@@ -13,9 +13,9 @@ Teilnehmer: Patrick Ritschel, Wolfgang Auer, Ralph Hoch, (Peter Reiter), Mert Ö
     - Meter Reading
     - Commands??
 - Naming of Components
-    - New names as in overview.md
+    - Neue Namen wie in overview.md vorgeschlagen
 - QoS for MQTT
-    - Mqtt settings??
+    - MQTT settings??
 
 ## Diskussion
 

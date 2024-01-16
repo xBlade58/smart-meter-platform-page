@@ -5,14 +5,14 @@
 Datum: 11.01.2024
 Beginning: 10.00
 End: 10.45
-Participants: Walter Ritter, Mert Ötztürk, Justin Ströhle, Stefan Beller
+Participants: Walter Ritter, Mert Öztürk, Justin Ströhle, Stefan Beller
 
-## Topics to Discuss
+## Zu besprechende Themen
 
-User experience.
-Dokumentation für den User hilfreich gestalten.
+- User experience.
+- Dokumentation für den User hilfreich gestalten.
 
-## Discussion
+## Diskussion
 
 Wie kann die Dokumentation an Entwickler:innen zur Verfügung gestellt werden und was ist zu beachten bei der Usability?
 - Übersicht: Grafik, wie was zusammenhängt als Zusatz. Also wie kann man das grafisch verdeutlichen
