@@ -26,10 +26,10 @@ Das Problem mit den bisherigen wordings war, dass die Schichten vermischt wurden
 Es sollen nun Begriffe gefunden werden, die die Aufgaben einer Komponente wiederspiegeln und nicht die Physische struktur beschreiben. Es soll möglich sein, mehrere Komponenten auf dem selben physichen Gerät zu betreiben.
 
 #### Smart-Meter
-Meter Component sagt nichts über die Funktionalität aus
-Data Acquisition Node sagt bereits was über die Funktionalität aus, vielleicht macht es noch mehr als nur das
+- Meter Component sagt nichts über die Funktionalität aus
+- Data Acquisition Node sagt bereits was über die Funktionalität aus, vielleicht macht es noch mehr als nur das
 wäre ein "Device under ..." (siehe DuT)
-Kann auch (Smart) Meter bleiben (Ralph, Patrick)
+- Kann auch (Smart) Meter bleiben (Ralph, Patrick)
 
 Einigung: **SmartMeter**
 
