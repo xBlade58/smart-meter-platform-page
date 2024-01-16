@@ -12,7 +12,7 @@ The communication technologies in this document are not specified strictly. It i
 
 ### Topic Structures
 
-In this document publish subscribe is used to communicate between different components in order to reach the goal of loose coupling. The structure of topics is always defined in a way that the subscriber can subscribe to the interest without knowing explicit id's. E.g. to all items without knowing the item id, the topic should look like this: `items/[itemId]` where the topic in the brackets is a variable value and more specific areas of the topic can be specified in a more detailed structure.
+In this document publish-subscribe is used to communicate between different components in order to reach the goal of loose coupling. The structure of topics is always defined in a way that the subscriber can subscribe to the interest without knowing explicit id's. E.g. to all items without knowing the item id, the topic should look like this: `items/[itemId]` where the topic in the brackets is a variable value and more specific areas of the topic can be specified in a more detailed structure.
 
 ### Security Concerns
 
