@@ -74,9 +74,9 @@ Einigung: Wird als Applikation betrachtet, die an die Cloud angeschlossen werden
     - (Publish & Subscribe darf man z.B. reinschreiben, also was verwendet werden sollte)
 - Teil4: Cloud-Service-Schnittstellen
     - Die Services selber sind nicht mehr Teil davon, also die Dienste nicht beschreiben (Ralph)
-    Daten die von sonstigen Quellen reinkommen auch nicht spezifizieren (Ralph)
-    Schnittstelle zum bereinigen der Daten braucht man schon (Patrick)
-    Schnittstelle definiert entweder die Kommandos oder z.B. SQL und man gibt an wie die Queries ankommen und zurückkommen, GraphQL
+    - Daten die von sonstigen Quellen reinkommen auch nicht spezifizieren (Ralph)
+    - Schnittstelle zum bereinigen der Daten braucht man schon (Patrick)
+    - Schnittstelle definiert entweder die Kommandos oder z.B. SQL und man gibt an wie die Queries ankommen und zurückkommen, GraphQL
 
 
 ### QoS 
