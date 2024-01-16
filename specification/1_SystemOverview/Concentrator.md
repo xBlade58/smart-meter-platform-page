@@ -8,7 +8,7 @@ The Concentrator component is the element between the SmartMeterAdapter's and th
 
 ### Data Collection
 
-The Concentrator connects to one or more SmartMeterAdapter components. How this connection is established is defined in the section [3_Communication](./../3_Communication/overview.md). SmartmeterAdapter components are from the top level view of the concentrator in close proximity to the Concentrator.
+The Concentrator connects to one or more SmartMeterAdapter components. How this connection is established is defined in the section [3_Communication](./../3_Communication/overview.md). SmartMeterAdapter components are from the top level view of the concentrator in close proximity to the Concentrator.
 
 ### Provide Data to the Cloud
 

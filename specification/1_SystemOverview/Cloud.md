@@ -10,7 +10,7 @@ The cloud consists of different components to consider.
 
 ### DataStorage
 
-The cloud MUST be able to store the incomming data following the standards of the data model.
+The cloud MUST be able to store the incoming data following the standards of the data model.
 
 TODO - speed and data amount considerations
 

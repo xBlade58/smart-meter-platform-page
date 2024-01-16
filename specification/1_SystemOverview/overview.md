@@ -11,7 +11,7 @@ The overall structure of these components should look like the following illustr
 
 ## Smart Meter
 
-The SmartMeter is a measuring component that MUST measure a specified set o information with a time component. E.g. a electricity smart meter measuring the energy consumption at the current timeframe.
+The SmartMeter is a measuring component that MUST measure a specified set o information with a time component. E.g. a electricity smart meter measuring the energy consumption at the current time-frame.
 
 ## Smart Meter Adapter
 
@@ -21,7 +21,7 @@ As different Smart Meters already exist and some of them can not be called smart
 
 ## Concentrator
 
-As multiple smart meter's MAY exist in a small local environment, it MAY be usefull to concentrate the data from these different smart meter's and provide this information to the cloud.
+As multiple smart meter's MAY exist in a small local environment, it MAY be useful to concentrate the data from these different smart meter's and provide this information to the cloud.
 
 [More details](Concentrator.md)
 
@@ -30,7 +30,7 @@ As multiple smart meter's MAY exist in a small local environment, it MAY be usef
 
 ## Cloud
 
-The Cloud is the component which MUST be responsible for storing the SmartMeter data in a structurized way as specified in the section [2_DataModel](./../2_DataModel/overview.md). The cloud MAY also consist of components capable of processing data. Offering ways to query data is also a topic of the cloud component and will be described in more detail in the section [4_CloudInterfaces](./../4_CloudInterfaces/overview.md).
+The Cloud is the component which MUST be responsible for storing the SmartMeter data in a well structured way as specified in the section [2_DataModel](./../2_DataModel/overview.md). The cloud MAY also consist of components capable of processing data. Offering ways to query data is also a topic of the cloud component and will be described in more detail in the section [4_CloudInterfaces](./../4_CloudInterfaces/overview.md).
 
 [More details](Cloud.md)
 
