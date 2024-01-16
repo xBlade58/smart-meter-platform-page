@@ -10,11 +10,11 @@ The SmartMeterAdapter component is the first controllable component. This means,
 
 ### Missing information
 
-It is not given that every smart meter is able to deliver every information our platform needs. For this abstraction in general there are possibilities to create profiles containing of different sets of operational properties per smart meter type. But there are also information that the smart meters typically do not know like size of a household. If such information are necessary, the SmartMeterAdapter MUST add these information to the data object.
+It is not given that every smart meter is able to deliver every information our platform needs. For this abstraction in general there are possibilities to create profiles containing of different sets of operational properties per smart meter type. But there are also information that the smart meters typically do not know, such as "household size". If these kind of details are necessary, the SmartMeterAdapter MUST add these information to the data object.
 
 #### Configuration of Information
 
-If data needs to be added like household size, the SmartMeterAdapter MUST provide an option to configure these details. The exact way of reaching this goal is not part of this specification.
+If additional information (e.g. household size) needs to be added, the SmartMeterAdapter MUST provide an option to configure these details. The exact way of reaching this goal is not part of this specification.
 
 ### Connecting to the SmartMeter
 

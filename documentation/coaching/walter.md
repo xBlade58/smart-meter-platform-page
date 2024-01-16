@@ -22,7 +22,7 @@ Für Dokumentation gilt das gleiche wie für SW: **der Anwender will ein Ziel er
 Ohne das Ziel kann man nicht sagen, ob etwas Nutzerfreundlich ist.
 
 Ziel: System implementieren und Entwickler will prüfen, ob die Spezifikation für ihn geeignet ist bzw ob es alles abdeckt, in der weiteren folge, wenn dies interessant ist, will er die Details anschauen --> Übersicht geben, wo man sieht, dass es für den Anwendungsfall passt, mit leichtem Absprung zu den Details.
-Overview first (Schnelleinführung mit Grafiken, aber auch konkret werden, Beispielhafte Anwendungen, an wen sich die Spezifikation richtet, aber möglichst kurz, können auch bullet points sein, um die Übersicht zu liefern.
+Overview first (Schnelleinführung mit Grafiken, aber auch konkret werden, Beispielhafte Anwendungen, an wen sich die Spezifikation richtet, aber möglichst kurz, können auch bullet points sein, um die Übersicht zu liefern.)
 
 App definition statement: So etwas für die Spezifikation auch machen: Handlungsaufforderung: Vorteile nennen (nur umsetzen, nicht denken, kompatibilität - Why should i use it?)
 

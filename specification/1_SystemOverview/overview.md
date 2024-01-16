@@ -1,6 +1,6 @@
 # System Overview
 
-The **Open Meter Data Platform** SHOULD consist of at least four different components. These components MUST NOT run on the same device. It is RECOMMENED to think about those components to be able to run on different devices.
+The **Open Meter Data Platform** SHOULD consist of at least four different components. These components MUST NOT run on the same device. It is RECOMMENDED to view them as components running on different devices.
 
 The overall structure of these components should look like the following illustration.
 
@@ -11,7 +11,7 @@ The overall structure of these components should look like the following illustr
 
 ## Smart Meter
 
-The SmartMeter is a measuring component that MUST measure a specified set o information with a time component. E.g. a electricity smart meter measuring the energy consumption at the current time-frame.
+The SmartMeter is a measuring component that MUST measure a specified set of information with a time component. E.g. a electricity smart meter measuring the energy consumption at the current time-frame.
 
 ## Smart Meter Adapter
 
@@ -21,7 +21,7 @@ As different Smart Meters already exist and some of them can not be called smart
 
 ## Concentrator
 
-As multiple smart meter's MAY exist in a small local environment, it MAY be useful to concentrate the data from these different smart meter's and provide this information to the cloud.
+As multiple smart meters MAY exist in a small local environment, it MAY be useful to concentrate the data from these different smart meters and provide the aggregated information to the cloud.
 
 [More details](Concentrator.md)
 

@@ -7,18 +7,18 @@ The specification comprises a SysML Block that represents the template and an as
 [Template MeterReading](http://www.plcs.org/plcslib/plcslib/data/contexts/SwedishDefence/templates/MeterReading/template.html)
 
 
-The Swedish Defence Materiel Administration provides a diagram of the data structure used in the system. Because the whole structure is to specific and not needed in this detail, we have reduced it to the following subset that SHOULD be implemented in this system. The following image shows this subset.
+The Swedish Defence Materiel Administration provides a diagram of the data structure used in the system. Since the entire structure is too specific and not needed at this level of accuracy, we have reduced it to the following subset that SHOULD be implemented in this system. The following image shows this subset.
 
 ![Interesting Part of the Swedish Defence Specification Diagram](images/datastructure.png "Interesting Part of the Swedish Defence Specification Diagram")
 [Full Diagram](http://www.plcs.org/plcslib/plcslib/data/contexts/SwedishDefence/dexs/OperationalData/dex_business_information_model.html#Model_Diagrams)
 
 ## The components of the data model
 
-The different parts of this for us interesting subset are described in the next sub chapters.
+The different parts of the suggested subset are described in the next sub chapters.
 
 ### MeterReading
 
-The _MeterReading_ specifies a specific MeterReading from one _MeterIndividual_. This element MUST consists of an id and the reading time!
+The _MeterReading_ specifies a specific MeterReading from one _MeterIndividual_. This element MUST consists of an id and the reading time.
 
 ### PropertyValue
 
@@ -29,7 +29,7 @@ The _PropertyValue_ is a flexible element of this specification and for one _Met
 A single _PropertyValue_ belongs to a overall category, in order to combine the same properties from different meter readings. The _OperationalPropertyDefinition_ MUST define an ID and SHOULD define a name. It MAY specify allowed units and a description.
 
 > [!NOTE]
-> The purpose of an OperationalProperty is to make the same values from different sources comparable. Two SmartMeter's measuring the same value should use the same property.
+> The purpose of an OperationalProperty is to make the same values from different sources comparable. Two SmartMeters measuring the same value should use the same property.
 
 ### PhysicalMeterElement
 
@@ -41,7 +41,7 @@ A _MeterIndividual_ is a actual individual device which can be identified indivi
 
 ## Actual Implementation of the data model
 
-In the following document, the MeterReading is visualized as a yaml structure.
+In the following document, the MeterReading is visualized as a YAML structure.
 
 ![ExampleOfMeterReading](./data/MeterReadingObject.yaml "ExampleOfMeterReading")
 

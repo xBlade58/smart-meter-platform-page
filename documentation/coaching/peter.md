@@ -18,7 +18,7 @@ Participants: Peter Reiter, Mert Ötztürk, Justin Ströhle, Stefan Beller
 
 ### Architecture
 
-Mert: Inhalt des Coachings - Architektur und Spezifikationsthemen
+Mert: Inhalt des Coachings - Hexagonale Architektur und Spezifikationsthemen
 Vorzeigen von unserer implementierten Architektur
 Architecture ist Hexagonal
 Erklärungen zur Architektur

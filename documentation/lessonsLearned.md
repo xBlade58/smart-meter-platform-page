@@ -9,7 +9,7 @@ In this document, the lessons learned durong this Project are documented. And st
 - big topic and normally not a thing one person could do in half a year
 - complex because you need to consider manny sourrounding topics
 - specifications have similarities e.g. the definition of the conformance levels
-- everyone you talk to has a slghtly different opinion and wants to see their own concept in the specification, to support everyones needs and stay general enough is a big challenge
+- everyone you talk to has a slghtly different opinion and wants to see their own concept in the specification. Hence, it is a big challenge to support everyone's needs and stay "general".
 
 ## Architecture
 
