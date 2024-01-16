@@ -16,7 +16,7 @@ In this document publish-subscribe is used to communicate between different comp
 
 ### Security Concerns
 
-The communication channels used MUST be implemented in a secure way. If of a communication technology a secure version exists this should be used e.g. always use mqtts instead of mqtt. If it is not possible to use a out of the box confidential transportation technology a confidential solution MUST be implemented.
+The communication channels used MUST be implemented in a secure way. When a secure version of a communication technology exists, it should be used e.g. always use MQTTS instead of MQTT. If it is not possible to use a out-of-the-box confidential transportation technology, a confidential solution MUST be implemented.
 
 ## Communication between SmartMeter and SmartMeterAdapter
 
