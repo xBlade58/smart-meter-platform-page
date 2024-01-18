@@ -1,0 +1,85 @@
+MeterReading:
+      type: object
+      properties:
+        meterReadingIdentifier:
+          type: string
+          format: uuid
+        readingTime:
+          type: string
+          format: datetime
+          description: timezone information MUST be included
+        faultCode:
+          type: string
+          format: faultCode
+          required: false
+          description: TODO: to be defined!
+        propertyValues:
+          type: array
+          items: 
+            # PropertyValues
+            type: object
+            properties:
+              unit:
+                type: string
+              date:
+                type: string
+                format: datetime
+              nummericalValue:
+                type: number
+              textValue:
+                type: string
+              operationalPropertyDefinition:
+                type: object
+                properties:
+                  propertyId:
+                    type: string
+                    format: uuid
+                  propertyName:
+                    type: string
+                  allowedUnits:
+                    type: array
+                    items:
+                      type: string
+        meterIndividual:
+          description: "actual physical meter"
+          type: object
+            properties:
+              meterIndividualId:
+                type: string
+                format: uuid
+              housholdId:
+                type: string
+                format: uuid
+              physicalMeterType:
+                type: object
+                properties:
+                  physicalElementId:
+                    type: string
+                    format: uuid
+                  physicalElementName:
+                    type: string
+                  physicalElementVersionId:
+                    type: string
+                  physicalElementIsVirtual:
+                    type: boolean
+                  physicalMeterClass:
+                    type: string
+                    enum:
+                      - ELECTRICITY
+                      - GAS
+                      - WATER
+                      - HEAT
+                  physicalMeterOperationalProperties:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        propertyId:
+                          type: string
+                          format: uuid
+                        propertyName:
+                          type: string
+                        allowedUnits:
+                          type: array
+                          items:
+                            type: string

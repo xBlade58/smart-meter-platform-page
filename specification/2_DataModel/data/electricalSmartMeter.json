@@ -1,0 +1,89 @@
+{
+  "meterReadingIdentifier": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+  "readingTime": "2023-11-22T12:00:00Z",
+  "sequenceNumber": 1,
+  "faultCode": "FC456",
+  "propertyValues": [
+    {
+      "unit": "kWh",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 100.5,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174001",
+        "propertyName": "Energy",
+        "allowedUnits": ["kWh"]
+      }
+    },
+    {
+      "unit": "V",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 230.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174002",
+        "propertyName": "Voltage L1",
+        "allowedUnits": ["V"]
+      }
+    },
+    {
+      "unit": "V",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 235.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174003",
+        "propertyName": "Voltage L2",
+        "allowedUnits": ["V"]
+      }
+    },
+    {
+      "unit": "V",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 240.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174004",
+        "propertyName": "Voltage L3",
+        "allowedUnits": ["V"]
+      }
+    },
+    {
+      "unit": "A",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 30.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174005",
+        "propertyName": "Current L1",
+        "allowedUnits": ["A"]
+      }
+    },
+    {
+      "unit": "A",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 28.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174006",
+        "propertyName": "Current L2",
+        "allowedUnits": ["A"]
+      }
+    },
+    {
+      "unit": "A",
+      "date": "2023-11-22T12:00:00Z",
+      "numericalValue": 32.0,
+      "operationalPropertyDefinition": {
+        "propertyId": "123e4567-e89b-12d3-a456-426614174007",
+        "propertyName": "Current L3",
+        "allowedUnits": ["A"]
+      }
+    }
+  ],
+
+  "meterIndividual": {
+    "meterIndividualId": "123e4567-e89b-12d3-a456-426614174abcd",
+    "physicalMeterType": {
+      "physicalElementId": "123e4567-e89b-12d3-a456-426614174008",
+      "physicalElementName": "Electrical Smart Meter - 3 Phases",
+      "physicalElementVersionId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "physicalElementIsVirtual": false,
+      "physicalMeterClass": "ELECTRICITY"
+    }
+  }
+}

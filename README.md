@@ -22,11 +22,6 @@ In the specification, the platform is described in an abstract way.
 
 We are planning to reach the following milestones in our project in the specified amount of time.
 
-| Milestone | Description | Due Date |
-| -- | -- | -- |
-| Project idea is final | • idea is agreed on within team and project managers<br>• idea is presented to customers and project managers (~10 min)<br>• idea together with planned features is documented in GitHub page | 02.10.2023 |
-| Data transport from smart meter to cloud platform | | 09.11.2023 |
-| Extension is possible | | 08.01.2024 |
-| Demo application | | 15.01.2024 |
-| Documentation for Coachings | | 19.01.2024 |
-| Final Presentation| | 25.01.2024 |
+The milestones we are planning to reach during this project are documented in the [github project](https://github.com/xBlade58/smart-meter-platform-page/milestones).
+
+
