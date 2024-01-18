@@ -24,6 +24,6 @@ In this section the data model is described. The Data Transmission Format was in
 
 The communication from the SmartMeter to the Cloud is specified in this chapter.
 
-### [Cloud Interfaces](4_CloudInterfaces/overview.md)
+### [Cloud](4_Cloud/overview.md)
 
 Which interfaces MUST be available and which of them are just RECOMMENDED is described in this chapter of the specification.

@@ -16,7 +16,7 @@ TODO - speed and data amount considerations
 
 ### Interfaces
 
-The cloud component MUST implement the REQUIRED interfaces described in [4_CloudInterfaces](./../4_CloudInterfaces/overview.md). Additional interfaces MAY be provided by the cloud component.
+The cloud component MUST implement the REQUIRED interfaces described in [4_Cloud](./../4_Cloud/overview.md). Additional interfaces MAY be provided by the cloud component.
 
 ### ProcessingComponents
 
