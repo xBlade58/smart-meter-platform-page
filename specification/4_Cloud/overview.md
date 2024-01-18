@@ -131,6 +131,48 @@ For the security of the endpoint from confidentiality perspective, it is the REC
 
 The data query interface SHOULD not return less than 20 data rows. If less than 20 rows are in the result the request SHOULD be denied. The system MUST follow data minimization principles, collecting only essential customer data defined for specific purposes.
 
+## Creation of SmartMeterAdapter config file
+
+For the creation of the SmartMeterAdapter config file a endpoint MUST exist. It MUST be possible to choose from the pre existing physical meter's the matching meter and create a new meter individual. The mapping of operational properties MAY be also possible by setting a variable or statical value for the given property.
+
+The configuration file should follow the structure below.
+
+```
+  SmartMeterAdapterConfig:
+      type: object
+      properties:
+        MeterIndividualId:
+          type: string
+          description: Meter Individual ID
+        OperationalPropertyMapping:
+          type: array
+          description: Mapping of Operational Properties
+          items:
+            type: object
+            properties:
+                from:
+                type: string
+                description: Source Operational Property ID
+                to:
+                type: string
+                description: Destination Operational Property ID
+        CloudAuth:
+          type: object
+          properties:
+            username:
+              type: string
+              description: Username for authentication
+              required: false
+            password:
+              type: string
+              description: Password for authentication
+              required: false
+            token:
+              type: string
+              description: Token for authentication
+              required: false
+  ```
+
 ## Cleaning Data
 
 As a logged-in user with rights to delete data entries, a user MUST have the ability to delete collected MeterReadings.

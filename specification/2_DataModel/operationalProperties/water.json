@@ -1,0 +1,25 @@
+{
+    "properties": [
+      {
+        "id": "WATER_volume_of_water",
+        "description": "volume  of  water",
+        "allowedUnits": ["m3"]
+      },
+      {
+        "id": "WATER_upstream_pressure",
+        "description": "upstream water pressure",
+        "allowedUnits": ["bar"]
+      },
+      {
+        "id": "WATER_downstream_pressure",
+        "description": "downstream water pressure",
+        "allowedUnits": ["bar"]
+      },
+      {
+        "id": "WATER_water_inlet_temperature",
+        "description": "inlet water temperature",
+        "allowedUnits": ["degreeCelsius"]
+      }
+    ]
+  }
+  

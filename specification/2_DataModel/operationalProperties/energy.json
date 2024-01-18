@@ -1,0 +1,1128 @@
+{
+    "properties": [
+      {
+        "id": "OBIS_1.8.0",
+        "description": "Positive active energy (A+) total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_1.8.1",
+        "description": "Positive active energy (A+) in tariff T1",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_1.8.2",
+        "description": "Positive active energy (A+) in tariff T2",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_1.8.3",
+        "description": "Positive active energy (A+) in tariff T3",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_1.8.4",
+        "description": "Positive active energy (A+) in tariff T4",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_2.8.0",
+        "description": "Negative active energy (A+) total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_2.8.1",
+        "description": "Negative active energy (A+) in tariff T1",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_2.8.2",
+        "description": "Negative active energy (A+) in tariff T2",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_2.8.3",
+        "description": "Negative active energy (A+) in tariff T3",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_2.8.4",
+        "description": "Negative active energy (A+) in tariff T4",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_15.8.0",
+        "description": "Absolute active energy (A+) total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_15.8.1",
+        "description": "Absolute active energy (A+) in tariff T1",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_15.8.2",
+        "description": "Absolute active energy (A+) in tariff T2",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_15.8.3",
+        "description": "Absolute active energy (A+) in tariff T3",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_15.8.4",
+        "description": "Absolute active energy (A+) in tariff T4",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_16.8.0",
+        "description": "Sum active energy without reverse blockade (A+ - A-) total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_16.8.",
+        "description": "Sum active energy without reverse blockade (A+ - A-) in tariff T1",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_16.8.2",
+        "description": "Sum active energy without reverse blockade (A+ - A-) in tariff T2",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_16.8.3",
+        "description": "Sum active energy without reverse blockade (A+ - A-) in tariff T3",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_16.8.4",
+        "description": "Sum active energy without reverse blockade (A+ - A-) in tariff T4",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_3.8.0",
+        "description": "Positive reactive energy (Q+) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_3.8.1",
+        "description": "Positive reactive energy (Q+) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_3.8.2",
+        "description": "Positive reactive energy (Q+) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_3.8.3",
+        "description": "Positive reactive energy (Q+) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_3.8.4",
+        "description": "Positive reactive energy (Q+) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_4.8.0",
+        "description": "Negative reactive energy (Q-) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_4.8.1",
+        "description": "Negative reactive energy (Q-) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_4.8.2",
+        "description": "Negative reactive energy (Q-) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_4.8.3",
+        "description": "Negative reactive energy (Q-) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_4.8.4",
+        "description": "Negative reactive energy (Q-) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_5.8.0",
+        "description": "Imported inductive reactive energy in 1-st quadrant (Q1) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_5.8.1",
+        "description": "Imported inductive reactive energy in 1-st quadrant (Q1) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_5.8.2",
+        "description": "Imported inductive reactive energy in 1-st quadrant (Q1) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_5.8.3",
+        "description": "Imported inductive reactive energy in 1-st quadrant (Q1) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_5.8.4",
+        "description": "Imported inductive reactive energy in 1-st quadrant (Q1) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_6.8.0",
+        "description": "Imported capacitive reactive energy in 2-nd quadrant (Q2) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_6.8.1",
+        "description": "Imported capacitive reactive energy in 2-nd quadr. (Q2) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_6.8.2",
+        "description": "Imported capacitive reactive energy in 2-nd quadr. (Q2) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_6.8.3",
+        "description": "Imported capacitive reactive energy in 2-nd quadr. (Q2) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_6.8.4",
+        "description": "Imported capacitive reactive energy in 2-nd quadr. (Q2) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_7.8.0",
+        "description": "Exported inductive reactive energy in 3-rd quadrant (Q3) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_7.8.1",
+        "description": "Exported inductive reactive energy in 3-rd quadrant (Q3) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_7.8.2",
+        "description": "Exported inductive reactive energy in 3-rd quadrant (Q3) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_7.8.3",
+        "description": "Exported inductive reactive energy in 3-rd quadrant (Q3) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_7.8.4",
+        "description": "Exported inductive reactive energy in 3-rd quadrant (Q3) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_8.8.0",
+        "description": "Exported capacitive reactive energy in 4-th quadrant (Q4) total",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_8.8.1",
+        "description": "Exported capacitive reactive energy in 4-th quadr. (Q4) in tariff T1",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_8.8.2",
+        "description": "Exported capacitive reactive energy in 4-th quadr. (Q4) in tariff T2",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_8.8.3",
+        "description": "Exported capacitive reactive energy in 4-th quadr. (Q4) in tariff T3",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_8.8.4",
+        "description": "Exported capacitive reactive energy in 4-th quadr. (Q4) in tariff T4",
+        "allowedUnits": ["kvarh"]
+      },
+      {
+        "id": "OBIS_9.8.0",
+        "description": "Apparent energy (S+) total",
+        "allowedUnits": ["kVAh"]
+      },
+      {
+        "id": "OBIS_9.8.1",
+        "description": "Apparent energy (S+) in tariff T1",
+        "allowedUnits": ["kVAh"]
+      },
+      {
+        "id": "OBIS_9.8.2",
+        "description": "Apparent energy (S+) in tariff T2",
+        "allowedUnits": ["kVAh"]
+      },
+      {
+        "id": "OBIS_9.8.3",
+        "description": "Apparent energy (S+) in tariff T3",
+        "allowedUnits": ["kVAh"]
+      },
+      {
+        "id": "OBIS_9.8.4",
+        "description": "Apparent energy (S+) in tariff T4",
+        "allowedUnits": ["kVAh"]
+      },
+      {
+        "id": "OBIS_21.8.0",
+        "description": "Positive active energy (A+) in phase L1 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_41.8.0",
+        "description": "Positive active energy (A+) in phase L2 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_61.8.0",
+        "description": "Positive active energy (A+) in phase L3 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_22.8.0",
+        "description": "Negative active energy (A-) in phase L1 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_42.8.0",
+        "description": "Negative active energy (A-) in phase L2 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_62.8.0",
+        "description": "Negative active energy (A-) in phase L3 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_35.8.0",
+        "description": "Absolute active energy (|A|) in phase L1 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_55.8.0",
+        "description": "Absolute active energy (|A|) in phase L2 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_75.8.0",
+        "description": "Absolute active energy (|A|) in phase L3 total",
+        "allowedUnits": ["kWh"]
+      },
+      {
+        "id": "OBIS_1.6.0",
+        "description": "Positive active maximum demand (A+) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.6.1",
+        "description": "Positive active maximum demand (A+) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.6.2",
+        "description": "Positive active maximum demand (A+) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.6.3",
+        "description": "Positive active maximum demand (A+) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.6.4",
+        "description": "Positive active maximum demand (A+) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.6.0",
+        "description": "Negative active maximum demand (A-) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.6.1",
+        "description": "Negative active maximum demand (A-) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.6.2",
+        "description": "Negative active maximum demand (A-) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.6.3",
+        "description": "Negative active maximum demand (A-) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.6.4",
+        "description": "Negative active maximum demand (A-) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.6.0",
+        "description": "Absolute active maximum demand (|A|) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.6.1",
+        "description": "Absolute active maximum demand (|A|) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.6.2",
+        "description": "Absolute active maximum demand (|A|) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.6.3",
+        "description": "Absolute active maximum demand (|A|) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.6.4",
+        "description": "Absolute active maximum demand (|A|) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_3.6.0",
+        "description": "Positive reactive maximum demand (Q+) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_4.6.0",
+        "description": "Negative reactive maximum demand (Q-) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_5.6.0",
+        "description": "Reactive maximum demand in Q1 (Q1) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_6.6.0",
+        "description": "Reactive maximum demand in Q2 (Q2) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_7.6.0",
+        "description": "Reactive maximum demand in Q3 (Q3) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_8.6.0",
+        "description": "Reactive maximum demand in Q4 (Q4) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_9.6.0",
+        "description": "Apparent maximum demand (S+) total",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_1.2.0",
+        "description": "Positive active cumulative maximum demand (A+) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.2.1",
+        "description": "Positive active cumulative maximum demand (A+) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.2.2",
+        "description": "Positive active cumulative maximum demand (A+) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.2.3",
+        "description": "Positive active cumulative maximum demand (A+) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_1.2.4",
+        "description": "Positive active cumulative maximum demand (A+) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.2.0",
+        "description": "Negative active cumulative maximum demand (A-) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.2.1",
+        "description": "Negative active cumulative maximum demand (A-) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.2.2",
+        "description": "Negative active cumulative maximum demand (A-) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.2.3",
+        "description": "Negative active cumulative maximum demand (A-) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.2.4",
+        "description": "Negative active cumulative maximum demand (A-) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.2.0",
+        "description": "Absolute active cumulative maximum demand (|A|) total",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.2.1",
+        "description": "Absolute active cumulative maximum demand (|A|) in tariff T1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.2.2",
+        "description": "Absolute active cumulative maximum demand (|A|) in tariff T2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.2.3",
+        "description": "Absolute active cumulative maximum demand (|A|) in tariff T3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.2.4",
+        "description": "Absolute active cumulative maximum demand (|A|) in tariff T4",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_3.2.0",
+        "description": "Positive reactive cumulative maximum demand (Q+) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_4.2.0",
+        "description": "Negative reactive cumulative maximum demand (Q-) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_5.2.0",
+        "description": "Reactive cumulative maximum demand in Q1 (Q1) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_6.2.0",
+        "description": "Reactive cumulative maximum demand in Q2 (Q2) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_7.2.0",
+        "description": "Reactive cumulative maximum demand in Q3 (Q3) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_8.2.0",
+        "description": "Reactive cumulative maximum demand in Q4 (Q4) total",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_9.2.0",
+        "description": "Apparent cumulative maximum demand (S+) total",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_1.4.0",
+        "description": "Positive active demand in a current demand period (A+)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.4.0",
+        "description": "Negative active demand in a current demand period (A-)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.4.0",
+        "description": "Absolute active demand in a current demand period (|A|)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_3.4.0",
+        "description": "Positive reactive demand in a current demand period (Q+)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_4.4.0",
+        "description": "Negative reactive demand in a current demand period (Q-)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_5.4.0",
+        "description": "Reactive demand in a current demand period in Q1 (Q1)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_6.4.0",
+        "description": "Reactive demand in a current demand period in Q2 (Q2)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_7.4.0",
+        "description": "Reactive demand in a current demand period in Q3 (Q3)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_8.4.0",
+        "description": "Reactive demand in a current demand period in Q4 (Q4)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_9.4.0",
+        "description": "Apparent demand in a current demand period (S+)",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_1.5.0",
+        "description": "Positive active demand in the last completed demand period (A+)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.5.0",
+        "description": "Negative active demand in the last completed demand period (A-)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.5.0",
+        "description": "Absolute active demand in the last completed demand period (|A|)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_3.5.0",
+        "description": "Positive reactive demand in the last completed demand period (Q+)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_4.5.0",
+        "description": "Negative reactive demand in the last completed demand period (Q-)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_5.5.0",
+        "description": "Reactive demand in the last completed demand period in Q1 (Q1)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_6.5.0",
+        "description": "Reactive demand in the last completed demand period in Q2 (Q2)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_7.5.0",
+        "description": "Reactive demand in the last completed demand period in Q3 (Q3)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_8.5.0",
+        "description": "Reactive demand in the last completed demand period in Q4 (Q4)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_9.5.0",
+        "description": "Apparent demand in the last completed demand period (S+)",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_1.7.0",
+        "description": "Positive active instantaneous power (A+)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_21.7.0",
+        "description": "Positive active instantaneous power (A+) in phase L1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_41.7.0",
+        "description": "Positive active instantaneous power (A+) in phase L2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_61.7.0",
+        "description": "Positive active instantaneous power (A+) in phase L3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_2.7.0",
+        "description": "Negative active instantaneous power (A-)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_22.7.0",
+        "description": "Negative active instantaneous power (A-) in phase L1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_42.7.0",
+        "description": "Negative active instantaneous power (A-) in phase L2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_62.7.0",
+        "description": "Negative active instantaneous power (A-) in phase L3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_15.7.0",
+        "description": "Absolute active instantaneous power (|A|)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_35.7.0",
+        "description": "Absolute active instantaneous power (|A|) in phase L1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_55.7.0",
+        "description": "Absolute active instantaneous power (|A|) in phase L2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_75.7.0",
+        "description": "Absolute active instantaneous power (|A|) in phase L3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_16.7.0",
+        "description": "Sum active instantaneous power (A+ - A-)",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_36.7.0",
+        "description": "Sum active instantaneous power (A+ - A-) in phase L1",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_56.7.0",
+        "description": "Sum active instantaneous power (A+ - A-) in phase L2",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_76.7.0",
+        "description": "Sum active instantaneous power (A+ - A-) in phase L3",
+        "allowedUnits": ["kW"]
+      },
+      {
+        "id": "OBIS_3.7.0",
+        "description": "Positive reactive instantaneous power (Q+)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_23.7.0",
+        "description": "Positive reactive instantaneous power (Q+) in phase L1",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_43.7.0",
+        "description": "Positive reactive instantaneous power (Q+) in phase L2",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_63.7.0",
+        "description": "Positive reactive instantaneous power (Q+) in phase L3",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_4.7.0",
+        "description": "Negative reactive instantaneous power (Q-)",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_24.7.0",
+        "description": "Negative reactive instantaneous power (Q-) in phase L1",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_44.7.0",
+        "description": "Negative reactive instantaneous power (Q-) in phase L2",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_64.7.0",
+        "description": "Negative reactive instantaneous power (Q-) in phase L3",
+        "allowedUnits": ["kvar"]
+      },
+      {
+        "id": "OBIS_9.7.0",
+        "description": "Apparent instantaneous power (S+)",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_29.7.0",
+        "description": "Apparent instantaneous power (S+) in phase L1",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_49.7.0",
+        "description": "Apparent instantaneous power (S+) in phase L2",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_69.7.0",
+        "description": "Apparent instantaneous power (S+) in phase L3",
+        "allowedUnits": ["kVA"]
+      },
+      {
+        "id": "OBIS_11.7.0",
+        "description": "Instantaneous current (I)",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_31.7.0",
+        "description": "Instantaneous current (I) in phase L1",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_51.7.0",
+        "description": "Instantaneous current (I) in phase L2",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_71.7.0",
+        "description": "Instantaneous current (I) in phase L3",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_91.7.0",
+        "description": "Instantaneous current (I) in neutral",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_11.6.0",
+        "description": "Maximum current (I max)",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_31.6.0",
+        "description": "Maximum current (I max) in phase L1",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_51.6.0",
+        "description": "Maximum current (I max) in phase L2",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_71.6.0",
+        "description": "Maximum current (I max) in phase L3",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_91.6.0",
+        "description": "Maximum current (I max) in neutral",
+        "allowedUnits": ["A"]
+      },
+      {
+        "id": "OBIS_12.7.0",
+        "description": "Instantaneous voltage (U)",
+        "allowedUnits": ["V"]
+      },
+      {
+        "id": "OBIS_32.7.0",
+        "description": "Instantaneous voltage (U) in phase L1",
+        "allowedUnits": ["V"]
+      },
+      {
+        "id": "OBIS_52.7.0",
+        "description": "Instantaneous voltage (U) in phase L2",
+        "allowedUnits": ["V"]
+      },
+      {
+        "id": "OBIS_72.7.0",
+        "description": "Instantaneous voltage (U) in phase L3",
+        "allowedUnits": ["V"]
+      },
+      {
+        "id": "OBIS_13.7.0",
+        "description": "Instantaneous power factor"
+      },
+      {
+        "id": "OBIS_33.7.0",
+        "description": "Instantaneous power factor in phase L1"
+      },
+      {
+        "id": "OBIS_53.7.0",
+        "description": "Instantaneous power factor in phase L2"
+      },
+      {
+        "id": "OBIS_73.7.0",
+        "description": "Instantaneous power factor in phase L3"
+      },
+      {
+        "id": "OBIS_14.7.0",
+        "description": "Frequency",
+        "allowedUnits": ["Hz"]
+      },
+      {
+        "id": "OBIS_C.53.1",
+        "description": "Tamper 1 energy register"
+      },
+      {
+        "id": "OBIS_C.53.2",
+        "description": "Tamper 2 energy register"
+      },
+      {
+        "id": "OBIS_C.53.3",
+        "description": "Tamper 3 energy register"
+      },
+      {
+        "id": "OBIS_C.53.4",
+        "description": "Tamper 4 energy register"
+      },
+      {
+        "id": "OBIS_C.53.11",
+        "description": "Tamper 5 energy register"
+      },
+      {
+        "id": "OBIS_C.53.5",
+        "description": "Tamper 1 time counter register"
+      },
+      {
+        "id": "OBIS_C.53.6",
+        "description": "Tamper 2 time counter register"
+      },
+      {
+        "id": "OBIS_C.53.7",
+        "description": "Tamper 3 time counter register"
+      },
+      {
+        "id": "OBIS_C.53.9",
+        "description": "Tamper 4 time counter register"
+      },
+      {
+        "id": "OBIS_C.53.10",
+        "description": "Tamper 5 time counter register"
+      },
+      {
+        "id": "OBIS_12. Events registers (counters and time-stamps)"
+      },
+      {
+        "id": "OBIS_C.2.0",
+        "description": "Event parameters change - counter"
+      },
+      {
+        "id": "OBIS_C.2.1",
+        "description": "Event parameters change - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.1",
+        "description": "Event terminal cover opened - counter"
+      },
+      {
+        "id": "OBIS_C.51.2",
+        "description": "Event terminal cover opened - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.3",
+        "description": "Event main cover opened - counter"
+      },
+      {
+        "id": "OBIS_C.51.4",
+        "description": "Event main cover opened - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.5",
+        "description": "Event magnetic field detection start - counter"
+      },
+      {
+        "id": "OBIS_C.51.6",
+        "description": "Event magnetic field detection start - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.7",
+        "description": "Event reverse power flow - counter"
+      },
+      {
+        "id": "OBIS_C.51.8",
+        "description": "Event reverse power flow - timestamp"
+      },
+      {
+        "id": "OBIS_C.7.0",
+        "description": "Event power down - counter"
+      },
+      {
+        "id": "OBIS_C.7.10",
+        "description": "Event power down - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.13",
+        "description": "Event power up - counter"
+      },
+      {
+        "id": "OBIS_C.51.14",
+        "description": "Event power up – timestamp"
+      },
+      {
+        "id": "OBIS_C.51.15",
+        "description": "Event RTC (Real Time Clock) set - counter"
+      },
+      {
+        "id": "OBIS_C.51.16",
+        "description": "Event RTC (Real Time Clock) set - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.21",
+        "description": "Event terminal cover closed - counter"
+      },
+      {
+        "id": "OBIS_C.51.22",
+        "description": "Event terminal cover closed - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.23",
+        "description": "Event main cover closed - counter"
+      },
+      {
+        "id": "OBIS_C.51.24",
+        "description": "Event main cover closed - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.25",
+        "description": "Event log-book 1 erased - counter"
+      },
+      {
+        "id": "OBIS_C.51.26",
+        "description": "Event log-book 1 erased - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.27",
+        "description": "Event fraud start - counter"
+      },
+      {
+        "id": "OBIS_C.51.28",
+        "description": "Event fraud start - timestamp"
+      },
+      {
+        "id": "OBIS_C.51.29",
+        "description": "Event fraud stop - counter"
+      },
+      {
+        "id": "OBIS_C.51.30",
+        "description": "Event fraud stop - timestamp"
+      },
+      {
+        "id": "OBIS_13. Miscellaneous registers used in sequences"
+      },
+      {
+        "id": "OBIS_0.9.1",
+        "description": "Current time (hh:mm:ss)"
+      },
+      {
+        "id": "OBIS_0.9.2",
+        "description": "Date (YY.MM.DD or DD.MM.YY)"
+      },
+      {
+        "id": "OBIS_0.9.4",
+        "description": "Date and Time (YYMMDDhhmmss)"
+      },
+      {
+        "id": "OBIS_0.8.0",
+        "description": "Demand period",
+        "allowedUnits": ["min"]
+      },
+      {
+        "id": "OBIS_0.8.4",
+        "description": "Load profile period",
+        "allowedUnits": ["min"]
+      },
+      {
+        "id": "OBIS_0.0.0",
+        "description": "Device address 1"
+      },
+      {
+        "id": "OBIS_0.0.1",
+        "description": "Device address 2"
+      },
+      {
+        "id": "OBIS_0.1.0",
+        "description": "MD reset counter"
+      },
+      {
+        "id": "OBIS_0.1.2",
+        "description": "MD reset timestamp"
+      },
+      {
+        "id": "OBIS_0.2.0",
+        "description": "Firmware version"
+      },
+      {
+        "id": "OBIS_0.2.2",
+        "description": "Tariff program ID"
+      },
+      {
+        "id": "OBIS_C.1.0",
+        "description": "Meter serial number"
+      },
+      {
+        "id": "OBIS_C.1.2",
+        "description": "Parameters file code"
+      },
+      {
+        "id": "OBIS_C.1.4",
+        "description": "Parameters check sum"
+      },
+      {
+        "id": "OBIS_C.1.5",
+        "description": "Firmware built date"
+      },
+      {
+        "id": "OBIS_C.1.6",
+        "description": "Firmware check sum"
+      },
+      {
+        "id": "OBIS_C.6.0",
+        "description": "Power down time counter"
+      },
+      {
+        "id": "OBIS_C.6.1",
+        "description": "Battery remaining capacity"
+      },
+      {
+        "id": "OBIS_F.F.0",
+        "description": "Fatal error meter status"
+      },
+      {
+        "id": "OBIS_C.87.0",
+        "description": "Active tariff"
+      },
+      {
+        "id": "OBIS_0.2.1",
+        "description": "Parameters scheme ID"
+      },
+      {
+        "id": "OBIS_C.60.9",
+        "description": "Fraud flag"
+      },
+      {
+        "id": "OBIS_0.3.0",
+        "description": "Active energy meter constant"
+      },
+      {
+        "id": "OBIS_0.4.2",
+        "description": "Current transformer ratio"
+      },
+      {
+        "id": "OBIS_0.4.3",
+        "description": "Voltage transformer ratio"
+      }
+    ]
+  }
+  
