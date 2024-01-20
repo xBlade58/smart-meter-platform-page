@@ -10,13 +10,13 @@ Until **25th of Janurary 2024**, we will develop a specification for a Open Mete
 
 In the concrete documentation the specific tecnologies are specified and the execution is documented.
 
-[To the documentation](documentation/overview.md)
+[To the documentation](documentation/README.md)
 
 ## Specification
 
 In the specification, the platform is described in an abstract way.
 
-[To the specification](specification/overview.md)
+[To the specification](specification/README.md)
 
 ## Milestones
 

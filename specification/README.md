@@ -12,18 +12,18 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 This specification is divided into a structure containing 4 parts. Each part has a specific role and a small introduction and overview section.
 
-### [System Overview](1_SystemOverview/overview.md)
+### [System Overview](1_SystemOverview/README.md)
 
 In this chapter the specification will give a small overview over the necessary components for building such a system. Specific implementations of the platform may differ from this recommendations.
 
-### [Data Model](2_DataModel/overview.md)
+### [Data Model](2_DataModel/README.md)
 
 In this section the data model is described. The Data Transmission Format was inspired by a project from the Swedish Defence Materiel Administration.
 
-### [Communication](3_Communication/overview.md)
+### [Communication](3_Communication/README.md)
 
 The communication from the SmartMeter to the Cloud is specified in this chapter.
 
-### [Cloud](4_Cloud/overview.md)
+### [Cloud](4_Cloud/README.md)
 
 Which interfaces MUST be available and which of them are just RECOMMENDED is described in this chapter of the specification.

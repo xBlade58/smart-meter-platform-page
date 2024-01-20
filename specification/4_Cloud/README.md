@@ -2,15 +2,15 @@
 
 In this chapter the minimal required interfaces of the Cloud component are described. Especially which interfaces MUST be available and which of them are just RECOMMENDED is described in this chapter of the specification.
 
-Data is stored inside the cloud system like described in [2_DataModel](./../2_DataModel/overview.md). The interfaces MUST consist of a ingress component and a interface to query data.
+Data is stored inside the cloud system like described in [2_DataModel](./../2_DataModel/README.md). The interfaces MUST consist of a ingress component and a interface to query data.
 
 ## Ingress
 
 Data for the cloud component MUST be provided through the ingress interface.
 
-The Cloud ingress is a Publish Subscribe interface subscribing to a topic. More details on that can be found in the chapter [3_Communication](./../3_Communication/overview.md).
+The Cloud ingress is a Publish Subscribe interface subscribing to a topic. More details on that can be found in the chapter [3_Communication](./../3_Communication/README.md).
 
-Data received on this ingress channel is stored in a internal storage component of the cloud component. Data is structured as described in [2_DataModel](./../2_DataModel/overview.md). Incoming data is also structured as described in [2_DataModel](./../2_DataModel/overview.md).
+Data received on this ingress channel is stored in a internal storage component of the cloud component. Data is structured as described in [2_DataModel](./../2_DataModel/README.md). Incoming data is also structured as described in [2_DataModel](./../2_DataModel/README.md).
 
 ## Data Query Interface
 
