@@ -26,10 +26,12 @@ The _PropertyValue_ is a flexible element of this specification and for one _Met
 
 ### OperationalPropertyDefinition
 
-A single _PropertyValue_ belongs to a overall category, in order to combine the same properties from different meter readings. The _OperationalPropertyDefinition_ MUST define an ID and SHOULD define a name. It MAY specify allowed units and a description.
+A single _PropertyValue_ belongs to a overall type, in order to combine the same properties from different meter readings. The _OperationalPropertyDefinition_ MUST define an ID. It MAY specify allowed units and a description.
 
 > [!NOTE]
-> The purpose of an OperationalProperty is to make the same values from different sources comparable. Two SmartMeters measuring the same value should use the same property.
+> The purpose of an OperationalProperty is to make the same values from different sources comparable. Two SmartMeters (e.g. from different manufacturers) measuring a value from the same type should use the same OperationalProperty. So a request to the data do only need to select which type of data should be returned.
+
+To make multiple implementations compatible with each other, operational properties are defined in this specification in the folder `operationalProperties` grouped in files by categories of operational properties. Operational properties relevant to multiple users SHOULD be added to the specification creating a new version of the specification. Properties not relevant to multiple users can be created in the own system. If at some point this special property gets relevant to multiple users and adopted in the specification, the own created property SHOULD be replaced by the specified one. For properties in this specification, it is RECOMMENDED to use a well known standard. E.g. for energy data the well known OBIS codes are used as a base for the creation of the operational properties.
 
 ### PhysicalMeterElement
 
@@ -37,7 +39,7 @@ A generation of SmartMeter's from the same Manufacturer offering the same Operat
 
 ### MeterIndividual
 
-A _MeterIndividual_ is a actual individual device which can be identified individually. It is an instance of a _PhysicalMeterElement_.
+A _MeterIndividual_ is a actual individual device which can be identified typically as one piece of hardware with a own serial number. It is an instance of a _PhysicalMeterElement_.
 
 ## Actual Implementation of the data model
 

@@ -9,8 +9,8 @@
       "date": "2023-11-22T12:00:00Z",
       "numericalValue": 100.5,
       "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174001",
-        "propertyName": "Energy",
+        "propertyId": "OBIS_15.7.0",
+        "propertyDescription": "Absolute active instantaneous power (|A|)",
         "allowedUnits": ["kWh"]
       }
     },
@@ -19,8 +19,8 @@
       "date": "2023-11-22T12:00:00Z",
       "numericalValue": 230.0,
       "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174002",
-        "propertyName": "Voltage L1",
+        "propertyId": "OBIS_32.7.0",
+        "propertyDescription": "Instantaneous voltage (U) in phase L1",
         "allowedUnits": ["V"]
       }
     },
@@ -29,18 +29,8 @@
       "date": "2023-11-22T12:00:00Z",
       "numericalValue": 235.0,
       "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174003",
-        "propertyName": "Voltage L2",
-        "allowedUnits": ["V"]
-      }
-    },
-    {
-      "unit": "V",
-      "date": "2023-11-22T12:00:00Z",
-      "numericalValue": 240.0,
-      "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174004",
-        "propertyName": "Voltage L3",
+        "propertyId": "OBIS_52.7.0",
+        "propertyDescription": "Instantaneous voltage (U) in phase L2",
         "allowedUnits": ["V"]
       }
     },
@@ -49,28 +39,8 @@
       "date": "2023-11-22T12:00:00Z",
       "numericalValue": 30.0,
       "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174005",
-        "propertyName": "Current L1",
-        "allowedUnits": ["A"]
-      }
-    },
-    {
-      "unit": "A",
-      "date": "2023-11-22T12:00:00Z",
-      "numericalValue": 28.0,
-      "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174006",
-        "propertyName": "Current L2",
-        "allowedUnits": ["A"]
-      }
-    },
-    {
-      "unit": "A",
-      "date": "2023-11-22T12:00:00Z",
-      "numericalValue": 32.0,
-      "operationalPropertyDefinition": {
-        "propertyId": "123e4567-e89b-12d3-a456-426614174007",
-        "propertyName": "Current L3",
+        "propertyId": "OBIS_11.7.0",
+        "propertyName": "Instantaneous current (I)",
         "allowedUnits": ["A"]
       }
     }

@@ -31,3 +31,8 @@ The data which is collected needs to be transmitted to the Concentrator componen
 ### Security Concerns
 
 Storing configuration data MUST be possible in a way to guarantee confidentiality and integrity.
+
+
+### Initial Setup
+
+The SmartMeterAdapter SHOULD be setup initially with a config file. The config file MUST specify the MeterIndividualId, it MUST contain information about which mapping to consider for OperationalPropertyValues and SHOULD contain information to connect to the cloud system and establish integrity and authenticity of the data provided.

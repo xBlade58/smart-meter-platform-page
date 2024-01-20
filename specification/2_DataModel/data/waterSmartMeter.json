@@ -5,23 +5,21 @@
     "faultCode": "FC789",
     "propertyValues": [
         {
-        "unit": "m³",
+        "unit": "m3",
         "date": "2023-11-22T09:30:00Z",
         "numericalValue": 5.8,
         "operationalPropertyDefinition": {
-            "propertyId": "123e4567-e89b-12d3-a456-426614174009",
-            "propertyName": "Water Consumption",
-            "allowedUnits": ["m³"]
+            "propertyId": "WATER_volume_of_water",
+            "allowedUnits": ["m3"]
         }
         },
         {
-        "unit": "°C",
+        "unit": "degreeCelsius",
         "date": "2023-11-22T09:30:00Z",
         "numericalValue": 15,
         "operationalPropertyDefinition": {
-            "propertyId": "123e4567-e89b-12d3-a456-426614174010",
-            "propertyName": "Water Temperature",
-            "allowedUnits": ["°C"]
+            "propertyId": "WATER_water_inlet_temperature",
+            "allowedUnits": ["degreeCelsius"]
         }
         }
     ],
