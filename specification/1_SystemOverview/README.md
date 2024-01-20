@@ -30,7 +30,7 @@ As multiple smart meters MAY exist in a small local environment, it MAY be usefu
 
 ## Cloud
 
-The Cloud is the component which MUST be responsible for storing the SmartMeter data in a well structured way as specified in the section [2_DataModel](./../2_DataModel/overview.md). The cloud MAY also consist of components capable of processing data. Offering ways to query data is also a topic of the cloud component and will be described in more detail in the section [4_Cloud](./../4_Cloud/overview.md).
+The Cloud is the component which MUST be responsible for storing the SmartMeter data in a well structured way as specified in the section [2_DataModel](./../2_DataModel/README.md). The cloud MAY also consist of components capable of processing data. Offering ways to query data is also a topic of the cloud component and will be described in more detail in the section [4_Cloud](./../4_Cloud/README.md).
 
 [More details](Cloud.md)
 

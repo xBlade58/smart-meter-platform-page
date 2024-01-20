@@ -1,6 +1,6 @@
 # Communication
 
-The whole set of defined components is visualized in the following figure. More information about the explicit components and their role in the system can be found in the section [1_SystemOverview](./../1_SystemOverview/overview.md). These four components SHOULD be implemented in a Smart Meter Platform.
+The whole set of defined components is visualized in the following figure. More information about the explicit components and their role in the system can be found in the section [1_SystemOverview](./../1_SystemOverview/README.md). These four components SHOULD be implemented in a Smart Meter Platform.
 
     +----------+   +-----------------+   +------------+   +-----+
     |SmartMeter|---|SmartMeterAdapter|---|Concentrator|---|Cloud|
@@ -8,7 +8,7 @@ The whole set of defined components is visualized in the following figure. More 
 
 ### Communication Technologies
 
-The communication technologies in this document are not specified strictly. It is specified which basic technology MUST be used and there is a explicit technology defined that SHOULD be used in order to reach the goal of inter-connectivity of different implementations. In some cases it MAY be useful to use other technologies which is fine. The only restriction is to stick to the agreed data formats as defined in [2_DataModel](./../2_DataModel/overview.md) and to stick to the topic structure while doing "messaging" as defined in this document.
+The communication technologies in this document are not specified strictly. It is specified which basic technology MUST be used and there is a explicit technology defined that SHOULD be used in order to reach the goal of inter-connectivity of different implementations. In some cases it MAY be useful to use other technologies which is fine. The only restriction is to stick to the agreed data formats as defined in [2_DataModel](./../2_DataModel/README.md) and to stick to the topic structure while doing "messaging" as defined in this document.
 
 ### Topic Structures
 

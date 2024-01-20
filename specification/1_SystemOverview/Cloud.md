@@ -14,7 +14,7 @@ The cloud MUST be able to store the incoming data following the standards of the
 
 ### Interfaces
 
-The cloud component MUST implement the REQUIRED interfaces described in [4_Cloud](./../4_Cloud/overview.md). Additional interfaces MAY be provided by the cloud component.
+The cloud component MUST implement the REQUIRED interfaces described in [4_Cloud](./../4_Cloud/README.md). Additional interfaces MAY be provided by the cloud component.
 
 ### ProcessingComponents
 

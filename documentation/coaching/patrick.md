@@ -13,7 +13,7 @@ Teilnehmer: Patrick Ritschel, Wolfgang Auer, Ralph Hoch, (Peter Reiter), Mert Ö
     - Meter Reading
     - Commands??
 - Naming of Components
-    - Neue Namen wie in overview.md vorgeschlagen
+    - Neue Namen wie in README.md vorgeschlagen
 - QoS for MQTT
     - MQTT settings??
 

@@ -26,7 +26,7 @@ The mapping of values collected from the SmartMeter to values conform to the ope
 
 ### Transmitting Data to the Concentrator
 
-The data which is collected needs to be transmitted to the Concentrator component as described in [3_Communication](./../3_Communication/overview.md) and should contain the data described in [2_DataModel](./../2_DataModel/overview.md).
+The data which is collected needs to be transmitted to the Concentrator component as described in [3_Communication](./../3_Communication/README.md) and should contain the data described in [2_DataModel](./../2_DataModel/README.md).
 
 ### Security Concerns
 
