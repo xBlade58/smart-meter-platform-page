@@ -19,7 +19,7 @@ Our goal was to build the Smartmeter service in a way that enables different ext
 
 Consequently, we divided the implementation of the Smartmeter service into two parts. The first part is the _application (inner hexagon)_ that handles the business logic through the domain model and ports. The second part is represented by the _adapters (outer hexagon)_ that use the ports to interact with the business logic. In the illustration below, an extract ofr our hexagonal architecture can be seen.
 
-TODO Image
+![architecture](../images/Household_Service_Architecture.png)
 
 ### Application (inner hexagon)
 
@@ -42,3 +42,7 @@ The `Postgres` adapters implement the repository interface to save and fetch fro
 #### Redis Adapter
 
 Apart from that we also implemented a `Redis-Adapter` that publishes for `HouseholdEvents`.
+
+#### Rest Adapter
+
+The Rest adapters allow to access the service via HTTP. The applications offers endpoints to create households and users, list the households and users, map users to households and assign meters to housholds.
