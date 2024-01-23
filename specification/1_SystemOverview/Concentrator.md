@@ -1,10 +1,10 @@
 # Concentrator
 
-The Concentrator component acts as an intermediary between individual SmartMeterAdapter attached to SmartMeter's and the optional central cloud system. Its primary function is to transmit relevant information to the cloud and concentrate multiple SmartMeterAdapters if configured. 
+The Concentrator component acts as an intermediary between individual SmartMeterAdapter attached to SmartMeters and the optional central cloud system. Its primary function is to transmit relevant information to the cloud and concentrate multiple SmartMeterAdapters if configured.
 
 ## What is the Component About
 
-The Concentrator component is the element between the SmartMeterAdapter's and the Cloud. It can be configured to act as a Concentrator for multiple SmartMeterAdapters.
+The Concentrator component is the element between the SmartMeterAdapters and the Cloud. It can be configured to act as a Concentrator for multiple SmartMeterAdapters.
 
 ### Data Collection
 
