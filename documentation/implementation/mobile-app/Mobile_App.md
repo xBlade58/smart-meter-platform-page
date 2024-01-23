@@ -17,9 +17,13 @@ The mobile application consists of two different views.
 
 The overview page allows to select a household as well as a timespan to visualize to data.
 
+![Overview](../images/Mobile_App_Overview.png)
+
 ### Settings View
 
 The settings page allows to set a user ID and the energy prices.
+
+![Settings](../images/Mobile_App_Settings.png)
 
 ## Technology
 
