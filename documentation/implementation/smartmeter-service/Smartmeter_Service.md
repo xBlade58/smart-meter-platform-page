@@ -49,3 +49,11 @@ The `TimescaleDB` adapters implement the repository interface to save and fetch 
 
 Apart from that we also implemented a `Redis-Adapter` that listens for `HouseholdEvents`. For example, after a `MeterAssignedEvent` is sent by the Household microservice, the Smartmeter service updates the respective `householdId` field of the Smart Meter.
 
+Finally, we want to note that our objective was not to develop a fully Domain-Driven-Design pattern, despite the fact that you might recognise some DDD patterns in the implementation. We rather wanted to develop a "clean" Hexagonal Architecture.
+
+## Technology Stack
+
+- Spring Boot
+- HIbernate
+- TimescaleDB
+- Redis Streams
