@@ -1,6 +1,6 @@
 # Smart Meter Platform
 
-The vision is to create a open platform to make data from smart meters private and publicly available.
+The vision is to create an open platform to make data from smart meters private and publicly available.
 
 ## SMART Goal
 
@@ -8,7 +8,7 @@ Until the **25th of January 2024**, we will develop a specification for a **Ope
 
 ## Concrete Documentation
 
-In the concrete documentation the specific tecnologies are specified and the execution is documented.
+In the concrete documentation the specific technologies are specified and the execution is documented.
 
 [To the documentation](documentation/README.md)
 
@@ -23,5 +23,3 @@ In the specification, the platform is described in an abstract way.
 We are planning to reach the following milestones in our project in the specified amount of time.
 
 The milestones we are planning to reach during this project are documented in the [github project](https://github.com/xBlade58/smart-meter-platform-page/milestones).
-
-
