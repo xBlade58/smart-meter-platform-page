@@ -14,7 +14,7 @@ It is not given that every smart meter is able to deliver every information our 
 
 #### Configuration of Information
 
-If additional information (e.g. household size) needs to be added, the SmartMeterAdapter MUST provide an option to configure these details. The exact way of reaching this goal is not part of this specification.
+If additional information (e.g. household size) needs to be added, the SmartMeterAdapter MUST provide an option to configure these details. The exact way of reaching this goal is not part of this specification. It MAY be possible by using special operational properties for this purpose.
 
 ### Connecting to the SmartMeter
 
@@ -22,7 +22,7 @@ The connection to the SmartMeter is to be implemented individually because it di
 
 #### Configure Mapping
 
-The mapping of values collected from the SmartMeter to values conform to the operational properties should also be configured in the SmartMeterAdapter.
+The mapping of values collected from the SmartMeter to values conform to the operational properties SHOULD also be configured in the SmartMeterAdapter.  This is the case because the SmartMeterAdapter is the first component that is able to know the exact mapping of the values. The exact way of reaching this goal is not part of this specification.
 
 ### Transmitting Data to the Concentrator
 
@@ -30,8 +30,7 @@ The data which is collected needs to be transmitted to the Concentrator componen
 
 ### Security Concerns
 
-Storing configuration data MUST be possible in a way to guarantee confidentiality and integrity.
-
+Storing configuration data MUST be possible in a way to guarantee confidentiality and integrity. Confidentiality is especially relevant to data that is relevant for the users privacy and the system security.
 
 ### Initial Setup
 

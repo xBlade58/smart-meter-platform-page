@@ -14,11 +14,11 @@ The Swedish Defence Materiel Administration provides a diagram of the data struc
 
 ## The components of the data model
 
-The different parts of the suggested subset are described in the next sub chapters.
+The different parts of the suggested subset are described in the next sub chapters. The data model is inspired by the Swedish Defence Platform.
 
 ### MeterReading
 
-The _MeterReading_ specifies a specific MeterReading from one _MeterIndividual_. This element MUST consists of an id and the reading time.
+The _MeterReading_ specifies a specific MeterReading from one _MeterIndividual_. This element MUST consists of an id and the reading time. It SHOULD also contain a faultCode to identify why the reading MAY not be correct. It is RECOMMENDED to follow [RFC 3339](https://www.rfc-editor.org/rfc/rfc3339.html) for the reading time format. 
 
 ### PropertyValue
 
@@ -39,7 +39,7 @@ A generation of SmartMeter's from the same Manufacturer offering the same Operat
 
 ### MeterIndividual
 
-A _MeterIndividual_ is a actual individual device which can be identified typically as one piece of hardware with a own serial number. It is an instance of a _PhysicalMeterElement_.
+A _MeterIndividual_ is a actual individual device which can be identified typically as one piece of hardware with a own serial number. It is an instance of a _PhysicalMeterElement_. A _MeterIndividual_ MUST specify the _PhysicalMeterElement_ as it is an instance of it. The _MeterIndividual_ MAY specify meta information about the SmartMeter it represents such as a name and a description.
 
 ## Actual Implementation of the data model
 

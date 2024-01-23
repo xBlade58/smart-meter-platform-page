@@ -4,7 +4,7 @@ The Concentrator component acts as an intermediary between individual SmartMeter
 
 ## What is the Component About
 
-The Concentrator component is the element between the SmartMeterAdapter's and the Cloud. It can be configured to act as a Concentrator for multiple SmartMeterAdapters.
+The Concentrator component is the element between the SmartMeterAdapter's and the Cloud. It can be configured to act as a Concentrator for multiple SmartMeterAdapters. 
 
 ### Data Collection
 

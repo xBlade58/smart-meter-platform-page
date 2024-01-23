@@ -125,11 +125,13 @@ properties:
 
 ## Securing the Endpoint
 
-For the security of the endpoint from confidentiality perspective, it is the RECOMMENDED option to use a token based access solution like OAuth2 OIDC.
+For the security of the endpoint from confidentiality perspective, it is the RECOMMENDED option to use a token based access solution like OAuth2 Open ID Connect.
+
+It is also REQUIRED to use transport layer security to ensure confidentiality and integrity of the data on the interfaces of the cloud component. Connections established with unsecure protocols MUST be redirected to a secure interface.
 
 ## Data Protection
 
-The data query interface SHOULD not return less than 20 data rows. If less than 20 rows are in the result the request SHOULD be denied. The system MUST follow data minimization principles, collecting only essential customer data defined for specific purposes.
+The data query interface SHOULD not return less than 20 data rows. If less than 20 rows are in the result the request SHOULD be denied. The system MUST follow data minimization principles, collecting only essential customer data defined for specific purposes. 
 
 ## Creation of SmartMeterAdapter config file
 

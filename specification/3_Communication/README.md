@@ -24,7 +24,7 @@ The communication channels used MUST be implemented in a secure way. When a secu
     |SmartMeter|---|SmartMeterAdapter|
     +----------+   +-----------------+
 
-Communication to a SmartMeter will likely happen through a hardware connection or a infrared interface. The communication method is defined by the SmartMeter. It defines which communication capabilities it offers.
+Communication to a SmartMeter will likely happen through a hardware connection or a infrared interface. The communication method is defined by the SmartMeter. It defines which communication capabilities it offers and how to use them. The SmartMeterAdapter MUST implement the communication method defined by the SmartMeter. Because of this restriction, this specification is not able to define a specific communication method.
 
 ## Communication between SmartMeterAdapter and Concentrator
 
