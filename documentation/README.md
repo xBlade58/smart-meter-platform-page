@@ -23,4 +23,4 @@ The concept for the specification was created as a team through many discussions
 
 ### Sample Implementation
 
-The sample implementation concept and design decisions were also made as a team by all three of us. The lead and work of implementing the concentrator and smart-meter service was done by Mert. The lead and work of implementing the home service and mobile application was done by Justin. The testing of the application in test scenarios and the real life application with the provided test station was also done by all three of us.
+The sample implementation concept and design decisions were also made as a team by all three of us. The lead and work of implementing the concentrator and smart-meter service was done by Mert. The lead and work of implementing the household service and mobile application was done by Justin. The testing of the application in test scenarios and the real life application with the provided test station was also done by all three of us.
