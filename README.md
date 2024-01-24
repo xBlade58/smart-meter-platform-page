@@ -1,6 +1,6 @@
 # Smart Meter Platform
 
-The vision is to create an open platform to make data from smart meters private and publicly available.
+The vision is to create an open platform to make data from smart meters private and publicly available
 
 ## SMART Goal
 
