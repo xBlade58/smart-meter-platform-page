@@ -15,9 +15,9 @@ The core functionality of this service revolves around the following aspects:
 
 ## Hexagonal Architecture
 
-Our goal was to build the Smartmeter service in a way that enables different external components to interact with our business logic, while keeping the business logic isolated from any external dependencies. So, the decision fell to a `Hexagonal Architecture`, also commonly known as `Ports and Adapters` pattern.
+Our goal was to build the smart meter service in a way that enables different external components to interact with our business logic, while keeping the business logic isolated from any external dependencies. So, the decision fell to a `Hexagonal Architecture`, also commonly known as `Ports and Adapters` pattern.
 
-Consequently, we divided the implementation of the Smartmeter service into two parts. The first part is the _application (inner hexagon)_ that handles the business logic through the domain model and ports. The second part is represented by the _adapters (outer hexagon)_ that use the ports to interact with the business logic. In the illustration below, an extract ofr our hexagonal architecture can be seen.
+Consequently, we divided the implementation of the smart meter service into two parts. The first part is the _application (inner hexagon)_ that handles the business logic through the domain model and ports. The second part is represented by the _adapters (outer hexagon)_ that use the ports to interact with the business logic. In the illustration below, an extract ofr our hexagonal architecture can be seen.
 
 ![architecture](../images/Household_Service_Architecture.png)
 
