@@ -10,7 +10,7 @@ Until the **25th of January 2024**, we will develop a specification for a **Ope
 
 In the concrete documentation the specific technologies are specified and the execution is documented.
 
-[To the documentation](documentation/README.md)
+[To the documentation](documentation/implementation/README.md)
 
 ## Specification
 
