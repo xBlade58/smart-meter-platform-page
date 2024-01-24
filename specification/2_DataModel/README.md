@@ -44,24 +44,102 @@ A _MeterIndividual_ is an actual individual device which can be identified typic
 
 In the following document, the MeterReading is visualized as a YAML structure.
 
-![ExampleOfMeterReading](./data/MeterReadingObject.yaml "ExampleOfMeterReading")
+```yaml
+MeterReading:
+      type: object
+      properties:
+        meterReadingIdentifier:
+          type: string
+          format: uuid
+        readingTime:
+          type: string
+          format: datetime
+          description: timezone information MUST be included
+        faultCode:
+          type: string
+          format: faultCode
+          required: false
+        propertyValues:
+          type: array
+          items: 
+            # PropertyValues
+            type: object
+            properties:
+              unit:
+                type: string
+              date:
+                type: string
+                format: datetime
+              numericalValue:
+                type: number
+              textValue:
+                type: string
+              operationalPropertyDefinition:
+                type: object
+                properties:
+                  propertyId:
+                    type: string
+                  propertyDescription:
+                    type: string
+                  allowedUnits:
+                    type: array
+                    items:
+                      type: string
+        meterIndividual:
+          description: "actual physical meter"
+          type: object
+            properties:
+              meterIndividualId:
+                type: string
+                format: uuid
+              householdId:
+                type: string
+                format: uuid
+              physicalMeterType:
+                type: object
+                properties:
+                  physicalElementId:
+                    type: string
+                    format: uuid
+                  physicalElementName:
+                    type: string
+                  physicalElementVersionId:
+                    type: string
+                  physicalElementIsVirtual:
+                    type: boolean
+                  physicalMeterClass:
+                    type: string
+                    enum:
+                      - ELECTRICITY
+                      - GAS
+                      - WATER
+                      - HEAT
+                  physicalMeterOperationalProperties:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        propertyId:
+                          type: string
+                          format: uuid
+                        propertyName:
+                          type: string
+                        allowedUnits:
+                          type: array
+                          items:
+                            type: string
+```
+
+File: [ExampleOfMeterReading](./data/MeterReadingObject.yaml "ExampleOfMeterReading")
 
 With this yaml based structure json structures can be generated to get a feeling of how data will be available from different smart meter types.
 
 For the first example consider an electrical smart meter capable of measuring different phases. When different types of devices would support different sets of property values, they would still be comparable due to the grouping of property values by the _OperationalPropertyDefinition_.
 
-<details>
-<summary>MeterReading Example with electrical readings</summary>
+How this could look like is visualized in the following files. The first one shows the content of a _MeterReading_ with a electrical smart meter. The file containing json data can be found here:
 
-![MeterReading Example with electrical readings](./data/electricalSmartMeter.json "MeterReading Example with electrical readings")
+[MeterReading Example with electrical readings](./data/electricalSmartMeter.json "MeterReading Example with electrical readings")
 
-</details>
+The same concept can be used for a water smart meter. The following file contains a json meter reading of a water smart meter.
 
-The same concept can be used for a water smart meter.
-
-<details>
-<summary>MeterReading Example with water readings</summary>
-
-![MeterReading Example with water readings](./data/waterSmartMeter.json "MeterReading Example with water readings")
-
-</details>
+[MeterReading Example with water readings](./data/waterSmartMeter.json "MeterReading Example with water readings")

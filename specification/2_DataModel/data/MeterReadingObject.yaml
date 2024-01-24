@@ -23,7 +23,7 @@ MeterReading:
               date:
                 type: string
                 format: datetime
-              nummericalValue:
+              numericalValue:
                 type: number
               textValue:
                 type: string
@@ -45,7 +45,7 @@ MeterReading:
               meterIndividualId:
                 type: string
                 format: uuid
-              housholdId:
+              householdId:
                 type: string
                 format: uuid
               physicalMeterType:
