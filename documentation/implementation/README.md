@@ -28,6 +28,10 @@ The `Household microservice` offers basic features such as creating and requesti
 
 For further details, we refer to the sub-chapter [Smartmeter Service](smartmeter-service/Smartmeter_Service.md).
 
+### Mobile Application
+
+If you want to learn more about the mobile application, please refer to the sub-chapter [Mobile Application](mobile-app/Mobile_App.md).
+
 ## Scenarios
 
 One of the first design decision was about the interface between the Concentrator and Cloud. We played through three scenarios.
