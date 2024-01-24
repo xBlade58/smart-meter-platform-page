@@ -100,7 +100,7 @@ def subscribe(client_sub: mqtt_client.Client, client_pub: mqtt_client.Client):
         msg = json.loads(msg.payload.decode())
         final_msg = adapt(msg) # formats message
         json_msg = json.dumps(final_msg)
-        print('Sedning final msg: \n', json_msg)
+        print('Sending final msg: \n', json_msg)
         result = client_pub.publish(topic, json_msg)
         status = result[0]
         if status != 0:
@@ -110,4 +110,9 @@ def subscribe(client_sub: mqtt_client.Client, client_pub: mqtt_client.Client):
 
 In regard to choosing the technology for the MQTT broker, we decided to go with [EMQX](https://www.emqx.io/). In our evaluation, we considered brokers like HiveMQ, Mosquitto, RabbitMQ. EMQX, however, stood out thanks to its high performance and scalability benchmarks.
 
-TODO: add links to sources
+## References
+
+- https://www.engineersgarage.com/top-mqtt-brokers-2022/
+- https://www.cloudamqp.com/blog/rabbitmq-mqtt-vs-emqx.html
+- [RabbitMQ Summit: RabbitMQ vs EMQX - Grigory Starinkin](https://www.engineersgarage.com/top-mqtt-brokers-2022/)
+- https://www.emqx.com/en/blog/how-to-use-mqtt-in-python

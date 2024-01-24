@@ -19,7 +19,7 @@ For modelling the domain, we adhered to the data model as proposed by the specif
 
 Our goal was to build the Smartmeter service in a way that enables different external components to interact with our business logic, while keeping the business logic isolated from any external dependencies. So, the decision fell to a `Hexagonal Architecture`, also commonly known as `Ports and Adapters` pattern.
 
-Consequently, we divided the implementation of the Smartmeter service into two parts. The first part is the _application (inner hexagon)_ that handles the business logic through the domain model and ports. The second part is represented by the _adapters (outer hexagon)_ that use the ports to interact with the business logic. In the illustration below, an extract ofr our hexagonal architecture can be seen.
+Consequently, we divided the implementation of the Smartmeter service into two parts. The first part is the _application (inner hexagon)_ that handles the business logic through the domain model and ports. The second part is represented by the _adapters (outer hexagon)_ that use the ports to interact with the business logic. In the illustration below, an extract of our hexagonal architecture can be seen.
 
 ![smartmeter_service_architecture](../images/Smartmeter_Service_Architecture.png)
 
@@ -43,7 +43,7 @@ One important adapter is the `MQTT-Adapter`, which is basically a subscriber to 
 
 #### TimescaleDB Adapter
 
-The `TimescaleDB` adapters implement the repository interface to save and fetch from our Timescale database. Internally, they delegete most of the requests to the respective JPA repositories, which are provided by Spring to simplify basic operations to the underlying database.
+The `TimescaleDB` adapters implement the repository interface to save and fetch from our Timescale database. Internally, they delegate most of the requests to the respective JPA repositories, which are provided by Spring to simplify basic operations to the underlying database.
 
 #### Redis Adapter
 
@@ -54,6 +54,11 @@ Finally, we want to note that our objective was not to develop a fully Domain-Dr
 ## Technology Stack
 
 - Spring Boot
-- HIbernate
+- Hibernate
 - TimescaleDB
 - Redis Streams
+
+## References
+
+- https://romanglushach.medium.com/hexagonal-architecture-the-secret-to-scalable-and-maintainable-code-for-modern-software-d345fdb47347
+- https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture
