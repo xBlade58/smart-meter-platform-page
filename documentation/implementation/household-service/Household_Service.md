@@ -47,4 +47,4 @@ Apart from that we also implemented a `Redis-Adapter` that publishes `HouseholdE
 
 #### Rest Adapter
 
-The Rest adapters allow to access the service via HTTP. The applications offers endpoints to create households and users, list the households and users, map users to households and assign meters to housholds.
+The Rest adapters allow to access the service via HTTP. The applications offers endpoints to create households and users, list the households and users, map users to households and assign meters to households.
