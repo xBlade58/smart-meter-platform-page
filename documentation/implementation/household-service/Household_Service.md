@@ -41,7 +41,9 @@ The `Postgres` adapters implement the repository interface to save and fetch fro
 
 #### Redis Adapter
 
-Apart from that we also implemented a `Redis-Adapter` that publishes for `HouseholdEvents`.
+Apart from that we also implemented a `Redis-Adapter` that publishes `HouseholdEvents`.
+
+![HouseholdEvents](../images/HouseholdEvents.png)
 
 #### Rest Adapter
 
